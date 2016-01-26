@@ -19,7 +19,7 @@
             "type": [
               "Function"
             ],
-            "descriptionCN": "<pre><code class=\"lang-js\">(group:string|Array)\n</code></pre>\n<p>多个图表实例实现联动。</p>\n<p><strong>参数：</strong></p>\n<ul>\n<li><code>group</code>\n  group 的 id，或者图表实例的数组。</li>\n</ul>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">// 分别设置每个实例的 group id\nchart1.group = &#39;group1&#39;;\ncahrt2.group = &#39;group1&#39;;\necharts.connect(&#39;group1&#39;);\n// 或者可以直接传入需要联动的实例数组\necharts.connect([chart1, chart2]);\n</code></pre>\n"
+            "descriptionCN": "<pre><code class=\"lang-js\">(group:string|Array)\n</code></pre>\n<p>多个图表实例实现联动。</p>\n<p><strong>参数：</strong></p>\n<ul>\n<li><code>group</code>\n  group 的 id，或者图表实例的数组。</li>\n</ul>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">// 分别设置每个实例的 group id\nchart1.group = &#39;group1&#39;;\nchart2.group = &#39;group1&#39;;\necharts.connect(&#39;group1&#39;);\n// 或者可以直接传入需要联动的实例数组\necharts.connect([chart1, chart2]);\n</code></pre>\n"
           },
           "disConnect": {
             "type": [
@@ -458,7 +458,7 @@
             "type": [
               "Event"
             ],
-            "descriptionCN": "<p><a href=\"option.html#toolbox.feature.magicType\" target=\"_blank\">工具栏中动态类型切换</a>的切换事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;dataviewchanged&#39;,\n    // 点击切换的当前类型，同 echarts 2.x 中的 type 属性\n    currentType: string\n}\n</code></pre>\n"
+            "descriptionCN": "<p><a href=\"option.html#toolbox.feature.magicType\" target=\"_blank\">工具栏中动态类型切换</a>的切换事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;magictypechanged&#39;,\n    // 点击切换的当前类型，同 echarts 2.x 中的 type 属性\n    currentType: string\n}\n</code></pre>\n"
           },
           "pieselected": {
             "type": [
