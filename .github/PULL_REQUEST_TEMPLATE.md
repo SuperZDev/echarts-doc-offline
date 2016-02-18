@@ -1,1 +1,6 @@
-test PULL_REQUEST_TEMPLATE template
+ 
+- [ ] 是否编译成功？
+- [ ] 是否有测试用例？
+- [ ] 是否解决了issue？
+- [ ] 是否添加了注释？
+- [x] completed
