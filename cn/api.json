@@ -460,41 +460,41 @@
             ],
             "descriptionCN": "<p><a href=\"option.html#toolbox.feature.magicType\" target=\"_blank\">工具栏中动态类型切换</a>的切换事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;magictypechanged&#39;,\n    // 点击切换的当前类型，同 echarts 2.x 中的 type 属性\n    currentType: string\n}\n</code></pre>\n"
           },
-          "pieselected": {
-            "type": [
-              "Event"
-            ],
-            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.pie.pieSelect\">pieSelect</a></p>\n<p>饼图扇形选中后的事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;pieselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n<p><strong>注：</strong> ECharts 2.x 中用户开关图例对应的事件从 <code>pieselected</code> 改为 <a href=\"#events.pieselectchanged\">pieselectchanged</a>。</p>\n"
-          },
-          "pieunselected": {
-            "type": [
-              "Event"
-            ],
-            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.pie.pieUnSelect\">pieUnSelect</a></p>\n<p>饼图扇形取消选中后的事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;pieunselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
-          },
           "pieselectchanged": {
             "type": [
               "Event"
             ],
             "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.pie.pieToggleSelect\">pieToggleSelect</a></p>\n<p>饼图扇形切换选中状态的事件。</p>\n<p>用户点击选中会触发该事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;pieselectchanged&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n<p><strong>注：</strong> 该事件同 ECharts 2 中的 <code>pieSelected</code> 事件相同。</p>\n"
           },
-          "mapselected": {
+          "pieselected": {
             "type": [
               "Event"
             ],
-            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.map.mapSelect\">mapSelect</a></p>\n<p>地图区域选中后的事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;mapselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n<p><strong>注：</strong> ECharts 2.x 中用户开关图例对应的事件从 <code>mapselected</code> 改为 <a href=\"#events.mapselectchanged\">mapselectchanged</a>。</p>\n"
+            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.pie.pieSelect\">pieSelect</a></p>\n<p>饼图扇形选中后的事件。</p>\n<p>使用<code>dispatchAction</code>可触发此事件，用户点击不会触发此事件（用户点击事件请使用 <a href=\"#events.pieselectchanged\">pieselectchanged</a>）。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;pieselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n<p><strong>注：</strong> ECharts 2.x 中用户开关图例对应的事件从 <code>pieselected</code> 改为 <a href=\"#events.pieselectchanged\">pieselectchanged</a>。</p>\n"
           },
-          "mapunselected": {
+          "pieunselected": {
             "type": [
               "Event"
             ],
-            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.map.mapUnSelect\">mapUnSelect</a></p>\n<p>地图区域取消选中后的事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;mapunselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
+            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.pie.pieUnSelect\">pieUnSelect</a></p>\n<p>饼图扇形取消选中后的事件。</p>\n<p>使用<code>dispatchAction</code>可触发此事件，用户点击不会触发此事件（用户点击事件请使用 <a href=\"#events.pieselectchanged\">pieselectchanged</a>）。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;pieunselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
           },
           "mapselectchanged": {
             "type": [
               "Event"
             ],
             "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.map.mapToggleSelect\">mapToggleSelect</a></p>\n<p>地图区域切换选中状态的事件。</p>\n<p>用户点击选中会触发该事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;mapselectchanged&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n<p><strong>注：</strong> 该事件同 ECharts 2 中的 <code>mapSelected</code> 事件相同。</p>\n"
+          },
+          "mapselected": {
+            "type": [
+              "Event"
+            ],
+            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.map.mapSelect\">mapSelect</a></p>\n<p>地图区域选中后的事件。</p>\n<p>使用<code>dispatchAction</code>可触发此事件，用户点击不会触发此事件（用户点击事件请使用 <a href=\"#events.mapselectchanged\">mapselectchanged</a>）。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;mapselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n<p><strong>注：</strong> ECharts 2.x 中用户开关图例对应的事件从 <code>mapselected</code> 改为 <a href=\"#events.mapselectchanged\">mapselectchanged</a>。</p>\n"
+          },
+          "mapunselected": {
+            "type": [
+              "Event"
+            ],
+            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.map.mapUnSelect\">mapUnSelect</a></p>\n<p>地图区域取消选中后的事件。</p>\n<p>使用<code>dispatchAction</code>可触发此事件，用户点击不会触发此事件（用户点击事件请使用 <a href=\"#events.mapselectchanged\">mapselectchanged</a>）。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;mapunselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
           }
         }
       }

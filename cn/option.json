@@ -162,7 +162,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -270,7 +270,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -394,7 +394,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -2923,7 +2923,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -2938,7 +2938,7 @@
               "string",
               "number"
             ],
-            "descriptionCN": "<p>组件离容器左侧的距离。</p>\n<p>left 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>。</p>\n<p>如果 left 的值为<code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
+            "descriptionCN": "<p>图例组件离容器左侧的距离。</p>\n<p>left 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>。</p>\n<p>如果 left 的值为<code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
             "default": "'auto'"
           },
           "top": {
@@ -2946,7 +2946,7 @@
               "string",
               "number"
             ],
-            "descriptionCN": "<p>组件离容器上侧的距离。</p>\n<p>top 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>。</p>\n<p>如果 top 的值为<code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
+            "descriptionCN": "<p>图例组件离容器上侧的距离。</p>\n<p>top 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>。</p>\n<p>如果 top 的值为<code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
             "default": "'auto'"
           },
           "right": {
@@ -2954,7 +2954,7 @@
               "string",
               "number"
             ],
-            "descriptionCN": "<p>组件离容器右侧的距离。</p>\n<p>right 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+            "descriptionCN": "<p>图例组件离容器右侧的距离。</p>\n<p>right 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
             "default": "'auto'"
           },
           "bottom": {
@@ -2962,7 +2962,23 @@
               "string",
               "number"
             ],
-            "descriptionCN": "<p>组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+            "descriptionCN": "<p>图例组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+            "default": "'auto'"
+          },
+          "width": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>图例组件的宽度。默认自适应。</p>\n",
+            "default": "'auto'"
+          },
+          "height": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>图例组件的高度。默认自适应。</p>\n",
             "default": "'auto'"
           },
           "orient": {
@@ -3222,16 +3238,20 @@
                 },
                 "startValue": {
                   "type": [
-                    "number"
+                    "number",
+                    "string",
+                    "Date"
                   ],
-                  "descriptionCN": "<p>数据窗口范围的起始数值。定义了 <code>startValue</code> 时，则 <a href=\"#dataZoom-inside.start\">dataZoom-inside.start</a> 失效。</p>\n<p><a href=\"#dataZoom-inside.startValue\">dataZoom-inside.startValue</a> 和 <a href=\"#dataZoom-inside.endValue\">dataZoom-inside.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n",
+                  "descriptionCN": "<p>数据窗口范围的起始数值。如果设置了 <a href=\"#dataZoom-inside.start\">dataZoom-inside.start</a> 则 <code>startValue</code> 失效。</p>\n<p><a href=\"#dataZoom-inside.startValue\">dataZoom-inside.startValue</a> 和 <a href=\"#dataZoom-inside.endValue\">dataZoom-inside.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n<p>注意，如果轴的类型为 <code>category</code>，则 <code>startValue</code> 即可以设置为 <code>axis.data</code> 数组的 <code>index</code>，也可以设置为数组值本身。\n但是如果设置为数组值本身，会在内部自动转化为数组的 index。</p>\n",
                   "default": null
                 },
                 "endValue": {
                   "type": [
-                    "number"
+                    "number",
+                    "string",
+                    "Date"
                   ],
-                  "descriptionCN": "<p>数据窗口范围的结束数值。定义了 <code>endValue</code> 时，则 <a href=\"#dataZoom-inside.end\">dataZoom-inside.end</a> 失效。</p>\n<p><a href=\"#dataZoom-inside.startValue\">dataZoom-inside.startValue</a> 和 <a href=\"#dataZoom-inside.endValue\">dataZoom-inside.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n",
+                  "descriptionCN": "<p>数据窗口范围的结束数值。如果设置了 <a href=\"#dataZoom-inside.end\">dataZoom-inside.end</a> 则 <code>endValue</code> 失效。</p>\n<p><a href=\"#dataZoom-inside.startValue\">dataZoom-inside.startValue</a> 和 <a href=\"#dataZoom-inside.endValue\">dataZoom-inside.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n<p>注意，如果轴的类型为 <code>category</code>，则 <code>endValue</code> 即可以设置为 <code>axis.data</code> 数组的 <code>index</code>，也可以设置为数组值本身。\n但是如果设置为数组值本身，会在内部自动转化为数组的 index。</p>\n",
                   "default": null
                 },
                 "orient": {
@@ -3446,16 +3466,20 @@
                 },
                 "startValue": {
                   "type": [
-                    "number"
+                    "number",
+                    "string",
+                    "Date"
                   ],
-                  "descriptionCN": "<p>数据窗口范围的起始数值。定义了 <code>startValue</code> 时，则 <a href=\"#dataZoom-slider.start\">dataZoom-slider.start</a> 失效。</p>\n<p><a href=\"#dataZoom-slider.startValue\">dataZoom-slider.startValue</a> 和 <a href=\"#dataZoom-slider.endValue\">dataZoom-slider.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n",
+                  "descriptionCN": "<p>数据窗口范围的起始数值。如果设置了 <a href=\"#dataZoom-slider.start\">dataZoom-slider.start</a> 则 <code>startValue</code> 失效。</p>\n<p><a href=\"#dataZoom-slider.startValue\">dataZoom-slider.startValue</a> 和 <a href=\"#dataZoom-slider.endValue\">dataZoom-slider.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n<p>注意，如果轴的类型为 <code>category</code>，则 <code>startValue</code> 即可以设置为 <code>axis.data</code> 数组的 <code>index</code>，也可以设置为数组值本身。\n但是如果设置为数组值本身，会在内部自动转化为数组的 index。</p>\n",
                   "default": null
                 },
                 "endValue": {
                   "type": [
-                    "number"
+                    "number",
+                    "string",
+                    "Date"
                   ],
-                  "descriptionCN": "<p>数据窗口范围的结束数值。定义了 <code>endValue</code> 时，则 <a href=\"#dataZoom-slider.end\">dataZoom-slider.end</a> 失效。</p>\n<p><a href=\"#dataZoom-slider.startValue\">dataZoom-slider.startValue</a> 和 <a href=\"#dataZoom-slider.endValue\">dataZoom-slider.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n",
+                  "descriptionCN": "<p>数据窗口范围的结束数值。如果设置了 <a href=\"#dataZoom-slider.end\">dataZoom-slider.end</a> 则 <code>endValue</code> 失效。</p>\n<p><a href=\"#dataZoom-slider.startValue\">dataZoom-slider.startValue</a> 和 <a href=\"#dataZoom-slider.endValue\">dataZoom-slider.endValue</a> 共同用 <strong>绝对数值</strong> 的形式定义了数据窗口范围。</p>\n<p>注意，如果轴的类型为 <code>category</code>，则 <code>endValue</code> 即可以设置为 <code>axis.data</code> 数组的 <code>index</code>，也可以设置为数组值本身。\n但是如果设置为数组值本身，会在内部自动转化为数组的 index。</p>\n",
                   "default": null
                 },
                 "orient": {
@@ -3483,7 +3507,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -3666,7 +3690,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -3952,7 +3976,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -4571,11 +4595,17 @@
                     "descriptionCN": "<p>保存的图片格式。支持 <code>&#39;png&#39;</code> 和 <code>&#39;jpeg&#39;</code>。</p>\n",
                     "default": "'png'"
                   },
+                  "name": {
+                    "type": [
+                      "string"
+                    ],
+                    "descriptionCN": "<p>保存的文件名称，默认使用 <a href=\"#title.text\">title.text</a> 作为名称。</p>\n"
+                  },
                   "backgroundColor": {
                     "type": [
                       "Color"
                     ],
-                    "descriptionCN": "<p>保存的图片背景色，默认使用 <a href=\"#backgroundColor\">option.backgroundColor</a>，如果<code>backgroundColor</code>不存在的话会取白色。</p>\n",
+                    "descriptionCN": "<p>保存的图片背景色，默认使用 <a href=\"#backgroundColor\">backgroundColor</a>，如果<code>backgroundColor</code>不存在的话会取白色。</p>\n",
                     "default": "'auto'"
                   },
                   "excludeComponents": {
@@ -4734,6 +4764,13 @@
                         }
                       }
                     }
+                  },
+                  "pixelRatio": {
+                    "type": [
+                      "number"
+                    ],
+                    "descriptionCN": "<p>保存图片的分辨率比例，默认跟容器相同大小，如果需要保存更高分辨率的，可以设置为大于 1 的值，例如 2。</p>\n",
+                    "default": 1
                   }
                 }
               },
@@ -5291,16 +5328,18 @@
                   "xAxisIndex": {
                     "type": [
                       "number",
-                      "Array"
+                      "Array",
+                      "boolean"
                     ],
-                    "descriptionCN": "<p>指定 哪些 <a href=\"#xAxis\">xAxis</a> 被控制。如果缺省则控制所有的x轴。</p>\n"
+                    "descriptionCN": "<p>指定 哪些 <a href=\"#xAxis\">xAxis</a> 被控制。如果缺省则控制所有的x轴。如果设置为 <code>false</code> 则不控制任何x轴。如果设置成 <code>3</code> 则控制 axisIndex 为 <code>3</code> 的x轴。如果设置为 <code>[0, 3]</code> 则控制 axisIndex 为 <code>0</code> 和 <code>3</code> 的x轴。</p>\n"
                   },
                   "yAxisIndex": {
                     "type": [
                       "number",
-                      "Array"
+                      "Array",
+                      "boolean"
                     ],
-                    "descriptionCN": "<p>指定 哪些 <a href=\"#yAxis\">yAxis</a> 被控制。如果缺省则控制所有的y轴。</p>\n"
+                    "descriptionCN": "<p>指定 哪些 <a href=\"#yAxis\">yAxis</a> 被控制。如果缺省则控制所有的y轴。如果设置为 <code>false</code> 则不控制任何y轴。如果设置成 <code>3</code> 则控制 axisIndex 为 <code>3</code> 的y轴。如果设置为 <code>[0, 3]</code> 则控制 axisIndex 为 <code>0</code> 和 <code>3</code> 的y轴。</p>\n"
                   }
                 }
               },
@@ -5723,7 +5762,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -5763,6 +5802,22 @@
               "number"
             ],
             "descriptionCN": "<p>工具栏组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+            "default": "'auto'"
+          },
+          "width": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>工具栏组件的宽度。默认自适应。</p>\n",
+            "default": "'auto'"
+          },
+          "height": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>工具栏组件的高度。默认自适应。</p>\n",
             "default": "'auto'"
           }
         }
@@ -6045,54 +6100,54 @@
                     "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
                   }
                 }
-              },
-              "zlevel": {
-                "type": [
-                  "number"
-                ],
-                "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
-                "default": 0
-              },
-              "z": {
-                "type": [
-                  "number"
-                ],
-                "descriptionCN": "<p>组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
-                "default": 2
-              },
-              "left": {
-                "type": [
-                  "string",
-                  "number"
-                ],
-                "descriptionCN": "<p>组件离容器左侧的距离。</p>\n<p>left 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>。</p>\n<p>如果 left 的值为<code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
-                "default": "'auto'"
-              },
-              "top": {
-                "type": [
-                  "string",
-                  "number"
-                ],
-                "descriptionCN": "<p>组件离容器上侧的距离。</p>\n<p>top 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>。</p>\n<p>如果 top 的值为<code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
-                "default": "'auto'"
-              },
-              "right": {
-                "type": [
-                  "string",
-                  "number"
-                ],
-                "descriptionCN": "<p>组件离容器右侧的距离。</p>\n<p>right 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
-                "default": "'auto'"
-              },
-              "bottom": {
-                "type": [
-                  "string",
-                  "number"
-                ],
-                "descriptionCN": "<p>组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
-                "default": "'auto'"
               }
             }
+          },
+          "zlevel": {
+            "type": [
+              "number"
+            ],
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "default": 0
+          },
+          "z": {
+            "type": [
+              "number"
+            ],
+            "descriptionCN": "<p>组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+            "default": 2
+          },
+          "left": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>组件离容器左侧的距离。</p>\n<p>left 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>。</p>\n<p>如果 left 的值为<code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
+            "default": "'auto'"
+          },
+          "top": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>组件离容器上侧的距离。</p>\n<p>top 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>。</p>\n<p>如果 top 的值为<code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
+            "default": "'auto'"
+          },
+          "right": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>组件离容器右侧的距离。</p>\n<p>right 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+            "default": "'auto'"
+          },
+          "bottom": {
+            "type": [
+              "string",
+              "number"
+            ],
+            "descriptionCN": "<p>组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+            "default": "'auto'"
           }
         }
       },
@@ -6106,7 +6161,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -7245,7 +7300,7 @@
             "type": [
               "number"
             ],
-            "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+            "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
             "default": 0
           },
           "z": {
@@ -8582,6 +8637,12 @@
                   "descriptionCN": "<p>是否平滑曲线显示。</p>\n",
                   "default": false
                 },
+                "smoothMonotone": {
+                  "type": [
+                    "string"
+                  ],
+                  "descriptionCN": "<p>折线平滑后是否在一个维度上保持单调性，可以设置成<code>&#39;x&#39;</code>, <code>&#39;y&#39;</code>来指明是在 x 轴或者 y 轴上保持单调性。</p>\n<p>通常在双数值轴上使用。</p>\n<p>下面两张图分别是双数值轴中的折线图<code>smoothMonotone</code>不设置以及设置为<code>&#39;x&#39;</code>的区别。</p>\n<ul>\n<li>不设置<code>smoothMonotone</code>:</li>\n</ul>\n<p><img width=\"300\" height=\"auto\" src=\"documents/asset/img/smooth-monotone-none.png\"></p>\n<ul>\n<li>设置为 <code>&#39;x&#39;</code>:</li>\n</ul>\n<p><img width=\"300\" height=\"auto\" src=\"documents/asset/img/smooth-monotone-x.png\"></p>\n"
+                },
                 "data": {
                   "type": [
                     "Array"
@@ -9218,7 +9279,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-line.markPoint.data.x\">x</a>, <a href=\"#series-line.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-line.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-line.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-line.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;最大值&#39;,\n    type: &#39;max&#39;\n}, {\n    name: &#39;某个坐标&#39;,\n    coord: [10, 20]\n}, {\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-line.markPoint.data.x\">x</a>, <a href=\"#series-line.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-line.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-line.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-line.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-line.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;最大值&#39;,\n        type: &#39;max&#39;\n    }, \n    {\n        name: &#39;某个坐标&#39;,\n        coord: [10, 20]\n    }, \n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -9240,6 +9301,12 @@
                               "number"
                             ],
                             "descriptionCN": "<p>在使用 <a href=\"#series-line.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                          },
+                          "valueDim": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>在使用 <a href=\"#series-line.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                           },
                           "coord": {
                             "type": [
@@ -9833,7 +9900,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-line.markLine.data.0.x\">x</a>, <a href=\"#series-line.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-line.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-line.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-line.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [{\n        // 起点和终点的项会共用一个 name\n        name: &#39;最小值到最大值&#39;,\n        type: &#39;min&#39;\n    }, {\n        type: &#39;max&#39;\n    }],\n    [{\n        name: &#39;两个坐标之间的标线&#39;,\n        coord: [10, 20]\n    }, {\n        coord: [20, 30]\n    }],\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-line.markLine.data.0.x\">x</a>, <a href=\"#series-line.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-line.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-line.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-line.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-line.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [\n        {\n            // 起点和终点的项会共用一个 name\n            name: &#39;最小值到最大值&#39;,\n            type: &#39;min&#39;\n        },\n        {\n            type: &#39;max&#39;\n        }\n    ],\n    [\n        {\n            name: &#39;两个坐标之间的标线&#39;,\n            coord: [10, 20]\n        },\n        {\n            coord: [20, 30]\n        }\n    ],\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -9851,7 +9918,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -10131,7 +10204,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -10434,6 +10513,20 @@
                     }
                   }
                 },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>折线图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>折线图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
+                },
                 "animation": {
                   "type": [
                     "boolean"
@@ -10702,6 +10795,14 @@
                             "number"
                           ],
                           "descriptionCN": "<p>柱条的描边宽度，默认不描边。</p>\n",
+                          "default": 0
+                        },
+                        "barBorderRadius": {
+                          "type": [
+                            "number",
+                            "Array"
+                          ],
+                          "descriptionCN": "<p>柱形边框圆角，单位px，支持传入数组分别指定柱形4个圆角半径。\n如:</p>\n<pre><code>barBorderRadius: 5, // 统一设置四个角的圆角大小\nbarBorderRadius: [5, 5, 0, 0] //（顺时针左上，右上，右下，左下）\n</code></pre>",
                           "default": 0
                         },
                         "shadowBlur": {
@@ -11027,6 +11128,14 @@
                                   "number"
                                 ],
                                 "descriptionCN": "<p>柱条的描边宽度，默认不描边。</p>\n",
+                                "default": 0
+                              },
+                              "barBorderRadius": {
+                                "type": [
+                                  "number",
+                                  "Array"
+                                ],
+                                "descriptionCN": "<p>柱形边框圆角，单位px，支持传入数组分别指定柱形4个圆角半径。\n如:</p>\n<pre><code>barBorderRadius: 5, // 统一设置四个角的圆角大小\nbarBorderRadius: [5, 5, 0, 0] //（顺时针左上，右上，右下，左下）\n</code></pre>",
                                 "default": 0
                               },
                               "shadowBlur": {
@@ -11451,7 +11560,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-bar.markPoint.data.x\">x</a>, <a href=\"#series-bar.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-bar.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-bar.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-bar.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;最大值&#39;,\n    type: &#39;max&#39;\n}, {\n    name: &#39;某个坐标&#39;,\n    coord: [10, 20]\n}, {\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-bar.markPoint.data.x\">x</a>, <a href=\"#series-bar.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-bar.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-bar.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-bar.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-bar.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;最大值&#39;,\n        type: &#39;max&#39;\n    }, \n    {\n        name: &#39;某个坐标&#39;,\n        coord: [10, 20]\n    }, \n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -11473,6 +11582,12 @@
                               "number"
                             ],
                             "descriptionCN": "<p>在使用 <a href=\"#series-bar.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                          },
+                          "valueDim": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>在使用 <a href=\"#series-bar.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                           },
                           "coord": {
                             "type": [
@@ -12066,7 +12181,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-bar.markLine.data.0.x\">x</a>, <a href=\"#series-bar.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-bar.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-bar.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-bar.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [{\n        // 起点和终点的项会共用一个 name\n        name: &#39;最小值到最大值&#39;,\n        type: &#39;min&#39;\n    }, {\n        type: &#39;max&#39;\n    }],\n    [{\n        name: &#39;两个坐标之间的标线&#39;,\n        coord: [10, 20]\n    }, {\n        coord: [20, 30]\n    }],\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-bar.markLine.data.0.x\">x</a>, <a href=\"#series-bar.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-bar.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-bar.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-bar.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-bar.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [\n        {\n            // 起点和终点的项会共用一个 name\n            name: &#39;最小值到最大值&#39;,\n            type: &#39;min&#39;\n        },\n        {\n            type: &#39;max&#39;\n        }\n    ],\n    [\n        {\n            name: &#39;两个坐标之间的标线&#39;,\n            coord: [10, 20]\n        },\n        {\n            coord: [20, 30]\n        }\n    ],\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -12084,7 +12199,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -12364,7 +12485,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -12666,6 +12793,20 @@
                       "default": "cubicOut"
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>柱状图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>柱状图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 },
                 "animation": {
                   "type": [
@@ -13246,7 +13387,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -14061,7 +14202,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-pie.markPoint.data.x\">x</a>, <a href=\"#series-pie.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-pie.markPoint.data.x\">x</a>, <a href=\"#series-pie.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -14658,7 +14799,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-pie.markLine.data.0.x\">x</a>, <a href=\"#series-pie.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-pie.markLine.data.0.x\">x</a>, <a href=\"#series-pie.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -16294,7 +16435,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markPoint.data.x\">x</a>, <a href=\"#series-scatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-scatter.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;最大值&#39;,\n    type: &#39;max&#39;\n}, {\n    name: &#39;某个坐标&#39;,\n    coord: [10, 20]\n}, {\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markPoint.data.x\">x</a>, <a href=\"#series-scatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-scatter.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-scatter.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;最大值&#39;,\n        type: &#39;max&#39;\n    }, \n    {\n        name: &#39;某个坐标&#39;,\n        coord: [10, 20]\n    }, \n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -16316,6 +16457,12 @@
                               "number"
                             ],
                             "descriptionCN": "<p>在使用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                          },
+                          "valueDim": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>在使用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                           },
                           "coord": {
                             "type": [
@@ -16909,7 +17056,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markLine.data.0.x\">x</a>, <a href=\"#series-scatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-scatter.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-scatter.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [{\n        // 起点和终点的项会共用一个 name\n        name: &#39;最小值到最大值&#39;,\n        type: &#39;min&#39;\n    }, {\n        type: &#39;max&#39;\n    }],\n    [{\n        name: &#39;两个坐标之间的标线&#39;,\n        coord: [10, 20]\n    }, {\n        coord: [20, 30]\n    }],\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markLine.data.0.x\">x</a>, <a href=\"#series-scatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-scatter.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-scatter.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-scatter.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [\n        {\n            // 起点和终点的项会共用一个 name\n            name: &#39;最小值到最大值&#39;,\n            type: &#39;min&#39;\n        },\n        {\n            type: &#39;max&#39;\n        }\n    ],\n    [\n        {\n            name: &#39;两个坐标之间的标线&#39;,\n            coord: [10, 20]\n        },\n        {\n            coord: [20, 30]\n        }\n    ],\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -16927,7 +17074,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -17207,7 +17360,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -17509,6 +17668,20 @@
                       "default": "cubicOut"
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>散点图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>散点图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 },
                 "animation": {
                   "type": [
@@ -18593,7 +18766,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-effectScatter.markPoint.data.x\">x</a>, <a href=\"#series-effectScatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-effectScatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-effectScatter.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-effectScatter.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;最大值&#39;,\n    type: &#39;max&#39;\n}, {\n    name: &#39;某个坐标&#39;,\n    coord: [10, 20]\n}, {\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-effectScatter.markPoint.data.x\">x</a>, <a href=\"#series-effectScatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-effectScatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-effectScatter.markPoint.data.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-effectScatter.markPoint.data.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-effectScatter.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;最大值&#39;,\n        type: &#39;max&#39;\n    }, \n    {\n        name: &#39;某个坐标&#39;,\n        coord: [10, 20]\n    }, \n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -18615,6 +18788,12 @@
                               "number"
                             ],
                             "descriptionCN": "<p>在使用 <a href=\"#series-effectScatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                          },
+                          "valueDim": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>在使用 <a href=\"#series-effectScatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                           },
                           "coord": {
                             "type": [
@@ -19208,7 +19387,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-effectScatter.markLine.data.0.x\">x</a>, <a href=\"#series-effectScatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-effectScatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-effectScatter.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-effectScatter.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值，最小值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [{\n        // 起点和终点的项会共用一个 name\n        name: &#39;最小值到最大值&#39;,\n        type: &#39;min&#39;\n    }, {\n        type: &#39;max&#39;\n    }],\n    [{\n        name: &#39;两个坐标之间的标线&#39;,\n        coord: [10, 20]\n    }, {\n        coord: [20, 30]\n    }],\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-effectScatter.markLine.data.0.x\">x</a>, <a href=\"#series-effectScatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-effectScatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n<li><p>直接用 <a href=\"#series-effectScatter.markLine.data.0.type\">type</a> 属性标注系列中的最大值，最小值。这时候可以使用 <a href=\"#series-effectScatter.markLine.data.0.valueIndex\">valueIndex</a> 指定是在哪个维度上的最大值、最小值、平均值。或者可以使用 <a href=\"#series-effectScatter.markPoint.data.valueDim\">valueDim</a> 指定在哪个维度上的最大值、最小值、平均值。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p>也可以是直接通过 <code>type</code> 设置该标线的类型，是最大值的线还是平均线。同样的，这时候可以通过使用 <code>valueIndex</code> 指定维度。</p>\n<pre><code>data: [\n    {\n        name: &#39;平均线&#39;,\n        // 支持 &#39;average&#39;, &#39;min&#39;, &#39;max&#39;\n        type: &#39;average&#39;\n    },\n    [\n        {\n            // 起点和终点的项会共用一个 name\n            name: &#39;最小值到最大值&#39;,\n            type: &#39;min&#39;\n        },\n        {\n            type: &#39;max&#39;\n        }\n    ],\n    [\n        {\n            name: &#39;两个坐标之间的标线&#39;,\n            coord: [10, 20]\n        },\n        {\n            coord: [20, 30]\n        }\n    ],\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -19226,7 +19405,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -19506,7 +19691,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -19809,6 +20000,20 @@
                     }
                   }
                 },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
+                },
                 "animation": {
                   "type": [
                     "boolean"
@@ -19863,7 +20068,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -19932,7 +20137,7 @@
                     "boolean",
                     "string"
                   ],
-                  "descriptionCN": "<p>是否开启拖拽漫游（移动和缩放）。可取值有：</p>\n<ul>\n<li><code>false</code>：关闭。</li>\n<li><code>&#39;scale&#39;</code> 或 <code>&#39;zoom&#39;</code>：只能够缩放。</li>\n<li><code>&#39;move&#39;</code>：只能够平移。</li>\n<li><code>true</code>：缩放和平移均可。</li>\n</ul>\n",
+                  "descriptionCN": "<p>是否开启拖拽漫游（移动和缩放）。可取值有：</p>\n<ul>\n<li><code>false</code>：关闭。</li>\n<li><code>&#39;scale&#39;</code> 或 <code>&#39;zoom&#39;</code>：只能够缩放。</li>\n<li><code>&#39;move&#39;</code> 或 <code>&#39;pan&#39;</code>：只能够平移。</li>\n<li><code>true</code>：缩放和平移均可。</li>\n</ul>\n",
                   "default": true
                 },
                 "nodeClick": {
@@ -21984,7 +22189,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markPoint.data.x\">x</a>, <a href=\"#series-scatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个坐标&#39;,\n    coord: [10, 20]\n}, {\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markPoint.data.x\">x</a>, <a href=\"#series-scatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个坐标&#39;,\n        coord: [10, 20]\n    }, \n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -22000,6 +22205,12 @@
                               "number"
                             ],
                             "descriptionCN": "<p>在使用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                          },
+                          "valueDim": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>在使用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                           },
                           "coord": {
                             "type": [
@@ -22593,7 +22804,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markLine.data.0.x\">x</a>, <a href=\"#series-scatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个坐标之间的标线&#39;,\n        coord: [10, 20]\n    }, {\n        coord: [20, 30]\n    }],\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markLine.data.0.x\">x</a>, <a href=\"#series-scatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个坐标之间的标线&#39;,\n            coord: [10, 20]\n        },\n        {\n            coord: [20, 30]\n        }\n    ],\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -22605,7 +22816,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -22879,7 +23096,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -23181,6 +23404,20 @@
                       "default": "cubicOut"
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>盒须图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>盒须图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 },
                 "animationDuration": {
                   "type": [
@@ -23849,7 +24086,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markPoint.data.x\">x</a>, <a href=\"#series-scatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个坐标&#39;,\n    coord: [10, 20]\n}, {\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markPoint.data.x\">x</a>, <a href=\"#series-scatter.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markPoint.data.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个坐标&#39;,\n        coord: [10, 20]\n    }, \n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -23865,6 +24102,12 @@
                               "number"
                             ],
                             "descriptionCN": "<p>在使用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                          },
+                          "valueDim": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>在使用 <a href=\"#series-scatter.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                           },
                           "coord": {
                             "type": [
@@ -24458,7 +24701,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markLine.data.0.x\">x</a>, <a href=\"#series-scatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个坐标之间的标线&#39;,\n        coord: [10, 20]\n    }, {\n        coord: [20, 30]\n    }],\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li><p>通过 <a href=\"#series-scatter.markLine.data.0.x\">x</a>, <a href=\"#series-scatter.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</p>\n</li>\n<li><p>用 <a href=\"#series-scatter.markLine.data.0.coord\">coord</a> 属性指定数据在相应坐标系上的坐标位置。</p>\n</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个坐标之间的标线&#39;,\n            coord: [10, 20]\n        },\n        {\n            coord: [20, 30]\n        }\n    ],\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -24470,7 +24713,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -24744,7 +24993,13 @@
                               "type": [
                                 "number"
                               ],
-                              "descriptionCN": "<p>在使用 <a href=\"#series-.markPoint.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值，可以是 <code>0</code>（xAxis, radiusAxis），<code>1</code>（yAxis, angleAxis），默认使用第一个数值轴所在的维度。</p>\n"
+                            },
+                            "valueDim": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>在使用 <a href=\"#series-.markLine.data.type\">type</a> 时有效，用于指定在哪个维度上指定最大值最小值。这可以是维度的直接名称，例如折线图时可以是<code>x</code>、<code>angle</code>等、candlestick 图时可以是<code>open</code>、<code>close</code>等维度名称。</p>\n"
                             },
                             "coord": {
                               "type": [
@@ -25046,6 +25301,20 @@
                       "default": "cubicOut"
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>K线图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>K线图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 },
                 "animationDuration": {
                   "type": [
@@ -25408,6 +25677,1504 @@
                       }
                     }
                   }
+                },
+                "markPoint": {
+                  "type": [
+                    "Object"
+                  ],
+                  "descriptionCN": "<p>图表标注。</p>\n",
+                  "properties": {
+                    "symbol": {
+                      "type": [
+                        "string"
+                      ],
+                      "descriptionCN": "<p>标记的图形。</p>\n<p>可选自带的标记类型， 有 \n<code>&#39;circle&#39;</code>, <code>&#39;rect&#39;</code>, <code>&#39;roundRect&#39;</code>, <code>&#39;triangle&#39;</code>, <code>&#39;diamond&#39;</code>, <code>&#39;pin&#39;</code>, <code>&#39;arrow&#39;</code></p>\n<p>也可以通过 <code>&#39;image://url&#39;</code> 设置为图片，其中 url 为图片的链接。</p>\n<p>在 ECharts 3 里可以通过 <code>&#39;path://&#39;</code> 设置为任意的矢量路径，这种方式相比于图片来说不用担心因为缩放而产生锯齿或模糊，而且可以设置为任意颜色。路径图形会自适应调整为合适（如果是 symbol 的话就是 symbolSize）的大小。路径的格式参见 <a href=\"http://www.w3.org/TR/SVG/paths.html#PathData\" target=\"_blank\">SVG PathData</a>。可以从 Adobe Illustrator 等工具编辑导出。</p>\n",
+                      "default": "'pin'"
+                    },
+                    "symbolSize": {
+                      "type": [
+                        "number",
+                        "Array",
+                        "Function"
+                      ],
+                      "descriptionCN": "<p>标记的大小，可以设置成诸如 <code>10</code> 这样单一的数字，也可以用数组分开表示高和宽，例如 <code>[20, 10]</code> 表示标记宽为<code>20</code>，高为<code>10</code>。</p>\n<p>如果需要每个数据的图形大小不一样，可以设置为如下格式的回调函数：</p>\n<pre><code class=\"lang-js\">(value: Array|number, params: Object) =&gt; number|Array\n</code></pre>\n<p>其中第一个参数 <code>value</code> 为 <a href=\"#series-.data\">data</a> 中的数据值。第二个参数<code>params</code> 是其它的数据项参数。</p>\n",
+                      "default": 50
+                    },
+                    "symbolRotate": {
+                      "type": [
+                        "number"
+                      ],
+                      "descriptionCN": "<p>标记的旋转角度。注意在 <code>markLine</code> 中当 <code>symbol</code> 为 <code>&#39;arrow&#39;</code> 时会忽略 <code>symbolRotate</code> 强制设置为切线的角度。</p>\n"
+                    },
+                    "symbolOffset": {
+                      "type": [
+                        "Array"
+                      ],
+                      "descriptionCN": "<p>标记相对于原本位置的偏移。默认情况下，标记会居中置放在数据对应的位置，但是如果 symbol 是自定义的矢量路径或者图片，就有可能不希望 symbol 居中。这时候可以使用该配置项配置 symbol 相对于原本居中的偏移，可以是绝对的像素值，也可以是相对的百分比。</p>\n<p>例如 <code>[0, &#39;50%&#39;]</code> 就是把自己向上移动了一半的位置，在 symbol 图形是气泡的时候可以让图形下端的箭头对准数据点。</p>\n",
+                      "default": "[0, 0]"
+                    },
+                    "label": {
+                      "type": [
+                        "Object"
+                      ],
+                      "descriptionCN": "<p>标注的文本。</p>\n",
+                      "properties": {
+                        "normal": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "show": {
+                              "type": [
+                                "boolean"
+                              ],
+                              "descriptionCN": "<p>是否显示标签。</p>\n",
+                              "default": false
+                            },
+                            "position": {
+                              "type": [
+                                "string",
+                                "Array"
+                              ],
+                              "descriptionCN": "<p>标签的位置。</p>\n<p><strong>可选：</strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  通过相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。\n  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideLeftTop&#39;</li>\n<li>&#39;insideLeftBottom&#39;</li>\n<li>&#39;insideRightTop&#39;</li>\n<li>&#39;insideRightBottom&#39;</li>\n</ul>\n",
+                              "default": "'inside'"
+                            },
+                            "formatter": {
+                              "type": [
+                                "string",
+                                "Function"
+                              ],
+                              "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>，分别表示系列名，数据名，数据值。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {c}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：\n 。</p>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                            },
+                            "textStyle": {
+                              "type": [
+                                "Object"
+                              ],
+                              "descriptionCN": "<p>标签的字体样式。</p>\n",
+                              "properties": {
+                                "color": {
+                                  "type": [
+                                    "Color"
+                                  ],
+                                  "descriptionCN": "<p>文字的颜色。</p>\n",
+                                  "default": "\"#fff\""
+                                },
+                                "fontStyle": {
+                                  "type": [
+                                    "string"
+                                  ],
+                                  "descriptionCN": "<p>文字字体的风格</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;italic&#39;</code></li>\n<li><code>&#39;oblique&#39;</code></li>\n</ul>\n",
+                                  "default": "'normal'"
+                                },
+                                "fontWeight": {
+                                  "type": [
+                                    "string"
+                                  ],
+                                  "descriptionCN": "<p>文字字体的粗细</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;bold&#39;</code></li>\n<li><code>&#39;bolder&#39;</code></li>\n<li><code>&#39;lighter&#39;</code></li>\n<li>100 | 200 | 300 | 400...</li>\n</ul>\n",
+                                  "default": "'normal'"
+                                },
+                                "fontFamily": {
+                                  "type": [
+                                    "string"
+                                  ],
+                                  "descriptionCN": "<p>文字的字体系列</p>\n",
+                                  "default": "'sans-serief'"
+                                },
+                                "fontSize": {
+                                  "type": [
+                                    "number"
+                                  ],
+                                  "descriptionCN": "<p>文字的字体大小</p>\n",
+                                  "default": 12
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "emphasis": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "show": {
+                              "type": [
+                                "boolean"
+                              ],
+                              "descriptionCN": "<p>是否显示标签。</p>\n",
+                              "default": false
+                            },
+                            "position": {
+                              "type": [
+                                "string",
+                                "Array"
+                              ],
+                              "descriptionCN": "<p>标签的位置。</p>\n<p><strong>可选：</strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  通过相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。\n  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideLeftTop&#39;</li>\n<li>&#39;insideLeftBottom&#39;</li>\n<li>&#39;insideRightTop&#39;</li>\n<li>&#39;insideRightBottom&#39;</li>\n</ul>\n"
+                            },
+                            "formatter": {
+                              "type": [
+                                "string",
+                                "Function"
+                              ],
+                              "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>，分别表示系列名，数据名，数据值。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {c}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：\n 。</p>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                            },
+                            "textStyle": {
+                              "type": [
+                                "Object"
+                              ],
+                              "descriptionCN": "<p>标签的字体样式。</p>\n",
+                              "properties": {
+                                "color": {
+                                  "type": [
+                                    "Color"
+                                  ],
+                                  "descriptionCN": "<p>文字的颜色。</p>\n",
+                                  "default": "\"#fff\""
+                                },
+                                "fontStyle": {
+                                  "type": [
+                                    "string"
+                                  ],
+                                  "descriptionCN": "<p>文字字体的风格</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;italic&#39;</code></li>\n<li><code>&#39;oblique&#39;</code></li>\n</ul>\n",
+                                  "default": "'normal'"
+                                },
+                                "fontWeight": {
+                                  "type": [
+                                    "string"
+                                  ],
+                                  "descriptionCN": "<p>文字字体的粗细</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;bold&#39;</code></li>\n<li><code>&#39;bolder&#39;</code></li>\n<li><code>&#39;lighter&#39;</code></li>\n<li>100 | 200 | 300 | 400...</li>\n</ul>\n",
+                                  "default": "'normal'"
+                                },
+                                "fontFamily": {
+                                  "type": [
+                                    "string"
+                                  ],
+                                  "descriptionCN": "<p>文字的字体系列</p>\n",
+                                  "default": "'sans-serief'"
+                                },
+                                "fontSize": {
+                                  "type": [
+                                    "number"
+                                  ],
+                                  "descriptionCN": "<p>文字的字体大小</p>\n",
+                                  "default": 12
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "itemStyle": {
+                      "type": [
+                        "Object"
+                      ],
+                      "descriptionCN": "<p>标注的样式。</p>\n",
+                      "properties": {
+                        "normal": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "color": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>图形的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                              "default": "自适应"
+                            },
+                            "borderColor": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>图形的描边颜色。支持的格式同<code>color</code>。</p>\n",
+                              "default": "\"#000\""
+                            },
+                            "borderWidth": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>描边线宽。为 0 时无描边。</p>\n",
+                              "default": 0
+                            },
+                            "shadowBlur": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                            },
+                            "shadowColor": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                            },
+                            "shadowOffsetX": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "shadowOffsetY": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "opacity": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                            }
+                          }
+                        },
+                        "emphasis": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "color": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>图形的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                              "default": "自适应"
+                            },
+                            "borderColor": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>图形的描边颜色。支持的格式同<code>color</code>。</p>\n",
+                              "default": "\"#000\""
+                            },
+                            "borderWidth": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>描边线宽。为 0 时无描边。</p>\n",
+                              "default": 0
+                            },
+                            "shadowBlur": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                            },
+                            "shadowColor": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                            },
+                            "shadowOffsetX": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "shadowOffsetY": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "opacity": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "data": {
+                      "type": [
+                        "Array"
+                      ],
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-heatmap.markPoint.data.x\">x</a>, <a href=\"#series-heatmap.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
+                      "items": {
+                        "type": "Object",
+                        "properties": {
+                          "name": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>标注名称。</p>\n",
+                            "default": "''"
+                          },
+                          "x": {
+                            "type": [
+                              "number"
+                            ],
+                            "descriptionCN": "<p>相对容器的屏幕 x 坐标，单位像素。</p>\n"
+                          },
+                          "y": {
+                            "type": [
+                              "number"
+                            ],
+                            "descriptionCN": "<p>相对容器的屏幕 y 坐标，单位像素。</p>\n"
+                          },
+                          "value": {
+                            "type": [
+                              "number"
+                            ],
+                            "descriptionCN": "<p>标注值，可以不设。</p>\n"
+                          },
+                          "symbol": {
+                            "type": [
+                              "string"
+                            ],
+                            "descriptionCN": "<p>标记的图形。</p>\n<p>可选自带的标记类型， 有 \n<code>&#39;circle&#39;</code>, <code>&#39;rect&#39;</code>, <code>&#39;roundRect&#39;</code>, <code>&#39;triangle&#39;</code>, <code>&#39;diamond&#39;</code>, <code>&#39;pin&#39;</code>, <code>&#39;arrow&#39;</code></p>\n<p>也可以通过 <code>&#39;image://url&#39;</code> 设置为图片，其中 url 为图片的链接。</p>\n<p>在 ECharts 3 里可以通过 <code>&#39;path://&#39;</code> 设置为任意的矢量路径，这种方式相比于图片来说不用担心因为缩放而产生锯齿或模糊，而且可以设置为任意颜色。路径图形会自适应调整为合适（如果是 symbol 的话就是 symbolSize）的大小。路径的格式参见 <a href=\"http://www.w3.org/TR/SVG/paths.html#PathData\" target=\"_blank\">SVG PathData</a>。可以从 Adobe Illustrator 等工具编辑导出。</p>\n"
+                          },
+                          "symbolSize": {
+                            "type": [
+                              "number",
+                              "Array"
+                            ],
+                            "descriptionCN": "<p>标记的大小，可以设置成诸如 <code>10</code> 这样单一的数字，也可以用数组分开表示高和宽，例如 <code>[20, 10]</code> 表示标记宽为<code>20</code>，高为<code>10</code>。</p>\n"
+                          },
+                          "symbolRotate": {
+                            "type": [
+                              "number"
+                            ],
+                            "descriptionCN": "<p>标记的旋转角度。注意在 <code>markLine</code> 中当 <code>symbol</code> 为 <code>&#39;arrow&#39;</code> 时会忽略 <code>symbolRotate</code> 强制设置为切线的角度。</p>\n"
+                          },
+                          "symbolOffset": {
+                            "type": [
+                              "Array"
+                            ],
+                            "descriptionCN": "<p>标记相对于原本位置的偏移。默认情况下，标记会居中置放在数据对应的位置，但是如果 symbol 是自定义的矢量路径或者图片，就有可能不希望 symbol 居中。这时候可以使用该配置项配置 symbol 相对于原本居中的偏移，可以是绝对的像素值，也可以是相对的百分比。</p>\n<p>例如 <code>[0, &#39;50%&#39;]</code> 就是把自己向上移动了一半的位置，在 symbol 图形是气泡的时候可以让图形下端的箭头对准数据点。</p>\n",
+                            "default": "[0, 0]"
+                          },
+                          "itemStyle": {
+                            "type": [
+                              "Object"
+                            ],
+                            "descriptionCN": "<p>该标注的样式。</p>\n",
+                            "properties": {
+                              "normal": {
+                                "type": [
+                                  "Object"
+                                ],
+                                "descriptionCN": "",
+                                "properties": {
+                                  "color": {
+                                    "type": [
+                                      "Color"
+                                    ],
+                                    "descriptionCN": "<p>图形的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                                    "default": "自适应"
+                                  },
+                                  "borderColor": {
+                                    "type": [
+                                      "Color"
+                                    ],
+                                    "descriptionCN": "<p>图形的描边颜色。支持的格式同<code>color</code>。</p>\n",
+                                    "default": "\"#000\""
+                                  },
+                                  "borderWidth": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>描边线宽。为 0 时无描边。</p>\n",
+                                    "default": 0
+                                  },
+                                  "shadowBlur": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                                  },
+                                  "shadowColor": {
+                                    "type": [
+                                      "Color"
+                                    ],
+                                    "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                                  },
+                                  "shadowOffsetX": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                                    "default": 0
+                                  },
+                                  "shadowOffsetY": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                                    "default": 0
+                                  },
+                                  "opacity": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                                  }
+                                }
+                              },
+                              "emphasis": {
+                                "type": [
+                                  "Object"
+                                ],
+                                "descriptionCN": "",
+                                "properties": {
+                                  "color": {
+                                    "type": [
+                                      "Color"
+                                    ],
+                                    "descriptionCN": "<p>图形的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                                    "default": "自适应"
+                                  },
+                                  "borderColor": {
+                                    "type": [
+                                      "Color"
+                                    ],
+                                    "descriptionCN": "<p>图形的描边颜色。支持的格式同<code>color</code>。</p>\n",
+                                    "default": "\"#000\""
+                                  },
+                                  "borderWidth": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>描边线宽。为 0 时无描边。</p>\n",
+                                    "default": 0
+                                  },
+                                  "shadowBlur": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                                  },
+                                  "shadowColor": {
+                                    "type": [
+                                      "Color"
+                                    ],
+                                    "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                                  },
+                                  "shadowOffsetX": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                                    "default": 0
+                                  },
+                                  "shadowOffsetY": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                                    "default": 0
+                                  },
+                                  "opacity": {
+                                    "type": [
+                                      "number"
+                                    ],
+                                    "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "label": {
+                            "type": [
+                              "Object"
+                            ],
+                            "descriptionCN": "",
+                            "properties": {
+                              "normal": {
+                                "type": [
+                                  "Object"
+                                ],
+                                "descriptionCN": "",
+                                "properties": {
+                                  "show": {
+                                    "type": [
+                                      "boolean"
+                                    ],
+                                    "descriptionCN": "<p>是否显示标签。</p>\n",
+                                    "default": false
+                                  },
+                                  "position": {
+                                    "type": [
+                                      "string",
+                                      "Array"
+                                    ],
+                                    "descriptionCN": "<p>标签的位置。</p>\n<p><strong>可选：</strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  通过相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。\n  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideLeftTop&#39;</li>\n<li>&#39;insideLeftBottom&#39;</li>\n<li>&#39;insideRightTop&#39;</li>\n<li>&#39;insideRightBottom&#39;</li>\n</ul>\n"
+                                  },
+                                  "textStyle": {
+                                    "type": [
+                                      "Object"
+                                    ],
+                                    "descriptionCN": "<p>标签的字体样式。</p>\n",
+                                    "properties": {
+                                      "color": {
+                                        "type": [
+                                          "Color"
+                                        ],
+                                        "descriptionCN": "<p>文字的颜色。</p>\n",
+                                        "default": "\"#fff\""
+                                      },
+                                      "fontStyle": {
+                                        "type": [
+                                          "string"
+                                        ],
+                                        "descriptionCN": "<p>文字字体的风格</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;italic&#39;</code></li>\n<li><code>&#39;oblique&#39;</code></li>\n</ul>\n",
+                                        "default": "'normal'"
+                                      },
+                                      "fontWeight": {
+                                        "type": [
+                                          "string"
+                                        ],
+                                        "descriptionCN": "<p>文字字体的粗细</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;bold&#39;</code></li>\n<li><code>&#39;bolder&#39;</code></li>\n<li><code>&#39;lighter&#39;</code></li>\n<li>100 | 200 | 300 | 400...</li>\n</ul>\n",
+                                        "default": "'normal'"
+                                      },
+                                      "fontFamily": {
+                                        "type": [
+                                          "string"
+                                        ],
+                                        "descriptionCN": "<p>文字的字体系列</p>\n",
+                                        "default": "'sans-serief'"
+                                      },
+                                      "fontSize": {
+                                        "type": [
+                                          "number"
+                                        ],
+                                        "descriptionCN": "<p>文字的字体大小</p>\n",
+                                        "default": 12
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "emphasis": {
+                                "type": [
+                                  "Object"
+                                ],
+                                "descriptionCN": "",
+                                "properties": {
+                                  "show": {
+                                    "type": [
+                                      "boolean"
+                                    ],
+                                    "descriptionCN": "<p>是否显示标签。</p>\n",
+                                    "default": false
+                                  },
+                                  "position": {
+                                    "type": [
+                                      "string",
+                                      "Array"
+                                    ],
+                                    "descriptionCN": "<p>标签的位置。</p>\n<p><strong>可选：</strong></p>\n<ul>\n<li><p>[x, y]</p>\n<p>  通过相对的百分比或者绝对像素值表示标签相对于图形包围盒左上角的位置。\n  示例：</p>\n<pre><code class=\"lang-js\">  // 绝对的像素值\n  position: [10, 10],\n  // 相对的百分比\n  position: [&#39;50%&#39;, &#39;50%&#39;]\n</code></pre>\n</li>\n<li><p>&#39;top&#39;</p>\n</li>\n<li>&#39;left&#39;</li>\n<li>&#39;right&#39;</li>\n<li>&#39;bottom&#39;</li>\n<li>&#39;inside&#39;</li>\n<li>&#39;insideLeft&#39;</li>\n<li>&#39;insideRight&#39;</li>\n<li>&#39;insideTop&#39;</li>\n<li>&#39;insideBottom&#39;</li>\n<li>&#39;insideLeftTop&#39;</li>\n<li>&#39;insideLeftBottom&#39;</li>\n<li>&#39;insideRightTop&#39;</li>\n<li>&#39;insideRightBottom&#39;</li>\n</ul>\n"
+                                  },
+                                  "textStyle": {
+                                    "type": [
+                                      "Object"
+                                    ],
+                                    "descriptionCN": "<p>标签的字体样式。</p>\n",
+                                    "properties": {
+                                      "color": {
+                                        "type": [
+                                          "Color"
+                                        ],
+                                        "descriptionCN": "<p>文字的颜色。</p>\n",
+                                        "default": "\"#fff\""
+                                      },
+                                      "fontStyle": {
+                                        "type": [
+                                          "string"
+                                        ],
+                                        "descriptionCN": "<p>文字字体的风格</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;italic&#39;</code></li>\n<li><code>&#39;oblique&#39;</code></li>\n</ul>\n",
+                                        "default": "'normal'"
+                                      },
+                                      "fontWeight": {
+                                        "type": [
+                                          "string"
+                                        ],
+                                        "descriptionCN": "<p>文字字体的粗细</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;normal&#39;</code></li>\n<li><code>&#39;bold&#39;</code></li>\n<li><code>&#39;bolder&#39;</code></li>\n<li><code>&#39;lighter&#39;</code></li>\n<li>100 | 200 | 300 | 400...</li>\n</ul>\n",
+                                        "default": "'normal'"
+                                      },
+                                      "fontFamily": {
+                                        "type": [
+                                          "string"
+                                        ],
+                                        "descriptionCN": "<p>文字的字体系列</p>\n",
+                                        "default": "'sans-serief'"
+                                      },
+                                      "fontSize": {
+                                        "type": [
+                                          "number"
+                                        ],
+                                        "descriptionCN": "<p>文字的字体大小</p>\n",
+                                        "default": 12
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "animation": {
+                      "type": [
+                        "boolean"
+                      ],
+                      "descriptionCN": "<p>是否开启动画，默认开启。</p>\n",
+                      "default": true
+                    },
+                    "animationDuration": {
+                      "type": [
+                        "number"
+                      ],
+                      "descriptionCN": "<p>初始动画的时长。</p>\n",
+                      "default": 1000
+                    },
+                    "animationEasing": {
+                      "type": [
+                        "string"
+                      ],
+                      "descriptionCN": "<p>初始动画的缓动效果。不同的缓动效果可以参考 <a href=\"line-easing\" target=\"_blank\">缓动示例</a>。</p>\n",
+                      "default": "cubicOut"
+                    },
+                    "animationDurationUpdate": {
+                      "type": [
+                        "number"
+                      ],
+                      "descriptionCN": "<p>数据更新动画的时长。</p>\n",
+                      "default": 300
+                    },
+                    "animationEasingUpdate": {
+                      "type": [
+                        "string"
+                      ],
+                      "descriptionCN": "<p>数据更新动画的缓动效果。</p>\n",
+                      "default": "cubicOut"
+                    }
+                  }
+                },
+                "markLine": {
+                  "type": [
+                    "*"
+                  ],
+                  "descriptionCN": "<p>图表标线。</p>\n",
+                  "properties": {
+                    "symbol": {
+                      "type": [
+                        "string",
+                        "Array"
+                      ],
+                      "descriptionCN": "<p>标线两端的标记类型，可以是一个数组分别指定两端，也可以是单个统一指定，具体格式见 (~series-heatmap.markLine.data.0.symbol)。</p>\n"
+                    },
+                    "symbolSize": {
+                      "type": [
+                        "number",
+                        "Array"
+                      ],
+                      "descriptionCN": "<p>标线两端的标记大小，可以是一个数组分别指定两端，也可以是单个统一指定。</p>\n<p><strong>注意：</strong> 这里无法像一般的 symbolSize 那样通过数组分别指定高宽。</p>\n"
+                    },
+                    "precision": {
+                      "type": [
+                        "number"
+                      ],
+                      "descriptionCN": "<p>标线数值的精度，在显示平均值线的时候有用。</p>\n",
+                      "default": 2
+                    },
+                    "label": {
+                      "type": [
+                        "Object"
+                      ],
+                      "descriptionCN": "<p>标线文本。</p>\n",
+                      "properties": {
+                        "normal": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "show": {
+                              "type": [
+                                "boolean"
+                              ],
+                              "descriptionCN": "<p>是否显示标签。</p>\n",
+                              "default": true
+                            },
+                            "position": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>标签位置，可选：</p>\n<ul>\n<li><code>&#39;start&#39;</code> 线的起始点。</li>\n<li><code>&#39;end&#39;</code>   线的结束点。</li>\n</ul>\n",
+                              "default": "'end'"
+                            },
+                            "formatter": {
+                              "type": [
+                                "string",
+                                "Function"
+                              ],
+                              "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>, <code>{d}</code>，分别表示系列名，数据名，数据值，百分比。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {d}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：</p>\n<pre><code class=\"lang-js\"> {\n     // 系列在传入的 option.series 中的 index\n     seriesIndex: number,\n     // 系列名称\n     seriesName: string,\n     // 数据名，类目名\n     name: string,\n     // 数据在传入的 data 数组中的 index\n     dataIndex: number,\n     // 传入的原始数据项\n     data: Object,\n     // 传入的数据值\n     value: number|Array,\n\n }\n</code></pre>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                            }
+                          }
+                        },
+                        "emphasis": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "show": {
+                              "type": [
+                                "boolean"
+                              ],
+                              "descriptionCN": "<p>是否显示标签。</p>\n",
+                              "default": true
+                            },
+                            "position": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>标签位置，可选：</p>\n<ul>\n<li><code>&#39;start&#39;</code> 线的起始点。</li>\n<li><code>&#39;end&#39;</code>   线的结束点。</li>\n</ul>\n",
+                              "default": "'end'"
+                            },
+                            "formatter": {
+                              "type": [
+                                "string",
+                                "Function"
+                              ],
+                              "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>, <code>{d}</code>，分别表示系列名，数据名，数据值，百分比。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {d}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：</p>\n<pre><code class=\"lang-js\"> {\n     // 系列在传入的 option.series 中的 index\n     seriesIndex: number,\n     // 系列名称\n     seriesName: string,\n     // 数据名，类目名\n     name: string,\n     // 数据在传入的 data 数组中的 index\n     dataIndex: number,\n     // 传入的原始数据项\n     data: Object,\n     // 传入的数据值\n     value: number|Array,\n\n }\n</code></pre>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "lineStyle": {
+                      "type": [
+                        "Object"
+                      ],
+                      "descriptionCN": "",
+                      "properties": {
+                        "normal": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "color": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>线的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                              "default": "自适应"
+                            },
+                            "width": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>线宽。</p>\n",
+                              "default": 0
+                            },
+                            "type": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>线的类型。</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;solid&#39;</code></li>\n<li><code>&#39;dashed&#39;</code></li>\n<li><code>&#39;dotted&#39;</code></li>\n</ul>\n",
+                              "default": "solid"
+                            },
+                            "shadowBlur": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                            },
+                            "shadowColor": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                            },
+                            "shadowOffsetX": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "shadowOffsetY": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "opacity": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                            },
+                            "curveness": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>边的曲度，支持从 0 到 1 的值，值越大曲度越大。</p>\n",
+                              "default": 0
+                            }
+                          }
+                        },
+                        "emphasis": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "",
+                          "properties": {
+                            "color": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>线的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                              "default": "\"#000\""
+                            },
+                            "width": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>线宽。</p>\n",
+                              "default": 0
+                            },
+                            "type": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>线的类型。</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;solid&#39;</code></li>\n<li><code>&#39;dashed&#39;</code></li>\n<li><code>&#39;dotted&#39;</code></li>\n</ul>\n",
+                              "default": "solid"
+                            },
+                            "shadowBlur": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                            },
+                            "shadowColor": {
+                              "type": [
+                                "Color"
+                              ],
+                              "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                            },
+                            "shadowOffsetX": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "shadowOffsetY": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                              "default": 0
+                            },
+                            "opacity": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "data": {
+                      "type": [
+                        "*"
+                      ],
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-heatmap.markLine.data.0.x\">x</a>, <a href=\"#series-heatmap.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
+                      "properties": {
+                        "0": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "<p>起点的数据。</p>\n",
+                          "properties": {
+                            "x": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>相对容器的屏幕 x 坐标，单位像素。</p>\n"
+                            },
+                            "y": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>相对容器的屏幕 y 坐标，单位像素。</p>\n"
+                            },
+                            "value": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>标注值，可以不设。</p>\n"
+                            },
+                            "symbol": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>起点标记的图形。</p>\n<p>可选自带的标记类型， 有 \n<code>&#39;circle&#39;</code>, <code>&#39;rect&#39;</code>, <code>&#39;roundRect&#39;</code>, <code>&#39;triangle&#39;</code>, <code>&#39;diamond&#39;</code>, <code>&#39;pin&#39;</code>, <code>&#39;arrow&#39;</code></p>\n<p>也可以通过 <code>&#39;image://url&#39;</code> 设置为图片，其中 url 为图片的链接。</p>\n<p>在 ECharts 3 里可以通过 <code>&#39;path://&#39;</code> 设置为任意的矢量路径，这种方式相比于图片来说不用担心因为缩放而产生锯齿或模糊，而且可以设置为任意颜色。路径图形会自适应调整为合适（如果是 symbol 的话就是 symbolSize）的大小。路径的格式参见 <a href=\"http://www.w3.org/TR/SVG/paths.html#PathData\" target=\"_blank\">SVG PathData</a>。可以从 Adobe Illustrator 等工具编辑导出。</p>\n"
+                            },
+                            "symbolSize": {
+                              "type": [
+                                "number",
+                                "Array"
+                              ],
+                              "descriptionCN": "<p>起点标记的大小，可以设置成诸如 <code>10</code> 这样单一的数字，也可以用数组分开表示高和宽，例如 <code>[20, 10]</code> 表示标记宽为<code>20</code>，高为<code>10</code>。</p>\n"
+                            },
+                            "symbolRotate": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>起点标记的旋转角度。注意在 <code>markLine</code> 中当 <code>symbol</code> 为 <code>&#39;arrow&#39;</code> 时会忽略 <code>symbolRotate</code> 强制设置为切线的角度。</p>\n"
+                            },
+                            "symbolOffset": {
+                              "type": [
+                                "Array"
+                              ],
+                              "descriptionCN": "<p>起点标记相对于原本位置的偏移。默认情况下，标记会居中置放在数据对应的位置，但是如果 symbol 是自定义的矢量路径或者图片，就有可能不希望 symbol 居中。这时候可以使用该配置项配置 symbol 相对于原本居中的偏移，可以是绝对的像素值，也可以是相对的百分比。</p>\n<p>例如 <code>[0, &#39;50%&#39;]</code> 就是把自己向上移动了一半的位置，在 symbol 图形是气泡的时候可以让图形下端的箭头对准数据点。</p>\n",
+                              "default": "[0, 0]"
+                            },
+                            "lineStyle": {
+                              "type": [
+                                "Object"
+                              ],
+                              "descriptionCN": "<p>该数据项线的样式，起点和终点项的<code>lineStyle</code>会合并到一起。</p>\n",
+                              "properties": {
+                                "normal": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "color": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>线的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                                      "default": "\"#000\""
+                                    },
+                                    "width": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>线宽。</p>\n",
+                                      "default": 0
+                                    },
+                                    "type": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>线的类型。</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;solid&#39;</code></li>\n<li><code>&#39;dashed&#39;</code></li>\n<li><code>&#39;dotted&#39;</code></li>\n</ul>\n",
+                                      "default": "solid"
+                                    },
+                                    "shadowBlur": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                                    },
+                                    "shadowColor": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                                    },
+                                    "shadowOffsetX": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "shadowOffsetY": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "opacity": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                                    },
+                                    "curveness": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>边的曲度，支持从 0 到 1 的值，值越大曲度越大。</p>\n",
+                                      "default": 0
+                                    }
+                                  }
+                                },
+                                "emphasis": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "color": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>线的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                                      "default": "\"#000\""
+                                    },
+                                    "width": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>线宽。</p>\n",
+                                      "default": 0
+                                    },
+                                    "type": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>线的类型。</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;solid&#39;</code></li>\n<li><code>&#39;dashed&#39;</code></li>\n<li><code>&#39;dotted&#39;</code></li>\n</ul>\n",
+                                      "default": "solid"
+                                    },
+                                    "shadowBlur": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                                    },
+                                    "shadowColor": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                                    },
+                                    "shadowOffsetX": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "shadowOffsetY": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "opacity": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                                    },
+                                    "curveness": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>边的曲度，支持从 0 到 1 的值，值越大曲度越大。</p>\n",
+                                      "default": 0
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "label": {
+                              "type": [
+                                "Object"
+                              ],
+                              "descriptionCN": "<p>该数据项标签的样式，起点和终点项的<code>label</code>会合并到一起。</p>\n",
+                              "properties": {
+                                "normal": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "show": {
+                                      "type": [
+                                        "boolean"
+                                      ],
+                                      "descriptionCN": "<p>是否显示标签。</p>\n",
+                                      "default": true
+                                    },
+                                    "position": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>标签位置，可选：</p>\n<ul>\n<li><code>&#39;start&#39;</code> 线的起始点。</li>\n<li><code>&#39;end&#39;</code>   线的结束点。</li>\n</ul>\n",
+                                      "default": "'end'"
+                                    },
+                                    "formatter": {
+                                      "type": [
+                                        "string",
+                                        "Function"
+                                      ],
+                                      "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>, <code>{d}</code>，分别表示系列名，数据名，数据值，百分比。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {d}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：</p>\n<pre><code class=\"lang-js\"> {\n     // 系列在传入的 option.series 中的 index\n     seriesIndex: number,\n     // 系列名称\n     seriesName: string,\n     // 数据名，类目名\n     name: string,\n     // 数据在传入的 data 数组中的 index\n     dataIndex: number,\n     // 传入的原始数据项\n     data: Object,\n     // 传入的数据值\n     value: number|Array,\n\n }\n</code></pre>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                                    }
+                                  }
+                                },
+                                "emphasis": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "show": {
+                                      "type": [
+                                        "boolean"
+                                      ],
+                                      "descriptionCN": "<p>是否显示标签。</p>\n",
+                                      "default": true
+                                    },
+                                    "position": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>标签位置，可选：</p>\n<ul>\n<li><code>&#39;start&#39;</code> 线的起始点。</li>\n<li><code>&#39;end&#39;</code>   线的结束点。</li>\n</ul>\n",
+                                      "default": "'end'"
+                                    },
+                                    "formatter": {
+                                      "type": [
+                                        "string",
+                                        "Function"
+                                      ],
+                                      "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>, <code>{d}</code>，分别表示系列名，数据名，数据值，百分比。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {d}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：</p>\n<pre><code class=\"lang-js\"> {\n     // 系列在传入的 option.series 中的 index\n     seriesIndex: number,\n     // 系列名称\n     seriesName: string,\n     // 数据名，类目名\n     name: string,\n     // 数据在传入的 data 数组中的 index\n     dataIndex: number,\n     // 传入的原始数据项\n     data: Object,\n     // 传入的数据值\n     value: number|Array,\n\n }\n</code></pre>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "1": {
+                          "type": [
+                            "Object"
+                          ],
+                          "descriptionCN": "<p>终点的数据。</p>\n",
+                          "properties": {
+                            "x": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>相对容器的屏幕 x 坐标，单位像素。</p>\n"
+                            },
+                            "y": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>相对容器的屏幕 y 坐标，单位像素。</p>\n"
+                            },
+                            "value": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>标注值，可以不设。</p>\n"
+                            },
+                            "symbol": {
+                              "type": [
+                                "string"
+                              ],
+                              "descriptionCN": "<p>终点标记的图形。</p>\n<p>可选自带的标记类型， 有 \n<code>&#39;circle&#39;</code>, <code>&#39;rect&#39;</code>, <code>&#39;roundRect&#39;</code>, <code>&#39;triangle&#39;</code>, <code>&#39;diamond&#39;</code>, <code>&#39;pin&#39;</code>, <code>&#39;arrow&#39;</code></p>\n<p>也可以通过 <code>&#39;image://url&#39;</code> 设置为图片，其中 url 为图片的链接。</p>\n<p>在 ECharts 3 里可以通过 <code>&#39;path://&#39;</code> 设置为任意的矢量路径，这种方式相比于图片来说不用担心因为缩放而产生锯齿或模糊，而且可以设置为任意颜色。路径图形会自适应调整为合适（如果是 symbol 的话就是 symbolSize）的大小。路径的格式参见 <a href=\"http://www.w3.org/TR/SVG/paths.html#PathData\" target=\"_blank\">SVG PathData</a>。可以从 Adobe Illustrator 等工具编辑导出。</p>\n"
+                            },
+                            "symbolSize": {
+                              "type": [
+                                "number",
+                                "Array"
+                              ],
+                              "descriptionCN": "<p>终点标记的大小，可以设置成诸如 <code>10</code> 这样单一的数字，也可以用数组分开表示高和宽，例如 <code>[20, 10]</code> 表示标记宽为<code>20</code>，高为<code>10</code>。</p>\n"
+                            },
+                            "symbolRotate": {
+                              "type": [
+                                "number"
+                              ],
+                              "descriptionCN": "<p>终点标记的旋转角度。注意在 <code>markLine</code> 中当 <code>symbol</code> 为 <code>&#39;arrow&#39;</code> 时会忽略 <code>symbolRotate</code> 强制设置为切线的角度。</p>\n"
+                            },
+                            "symbolOffset": {
+                              "type": [
+                                "Array"
+                              ],
+                              "descriptionCN": "<p>终点标记相对于原本位置的偏移。默认情况下，标记会居中置放在数据对应的位置，但是如果 symbol 是自定义的矢量路径或者图片，就有可能不希望 symbol 居中。这时候可以使用该配置项配置 symbol 相对于原本居中的偏移，可以是绝对的像素值，也可以是相对的百分比。</p>\n<p>例如 <code>[0, &#39;50%&#39;]</code> 就是把自己向上移动了一半的位置，在 symbol 图形是气泡的时候可以让图形下端的箭头对准数据点。</p>\n",
+                              "default": "[0, 0]"
+                            },
+                            "lineStyle": {
+                              "type": [
+                                "Object"
+                              ],
+                              "descriptionCN": "<p>该数据项线的样式，起点和终点项的<code>lineStyle</code>会合并到一起。</p>\n",
+                              "properties": {
+                                "normal": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "color": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>线的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                                      "default": "\"#000\""
+                                    },
+                                    "width": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>线宽。</p>\n",
+                                      "default": 0
+                                    },
+                                    "type": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>线的类型。</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;solid&#39;</code></li>\n<li><code>&#39;dashed&#39;</code></li>\n<li><code>&#39;dotted&#39;</code></li>\n</ul>\n",
+                                      "default": "solid"
+                                    },
+                                    "shadowBlur": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                                    },
+                                    "shadowColor": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                                    },
+                                    "shadowOffsetX": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "shadowOffsetY": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "opacity": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                                    },
+                                    "curveness": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>边的曲度，支持从 0 到 1 的值，值越大曲度越大。</p>\n",
+                                      "default": 0
+                                    }
+                                  }
+                                },
+                                "emphasis": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "color": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>线的颜色。</p>\n<blockquote>\n<p>颜色可以使用 RGB 表示，比如 <code>&#39;rgb(128, 128, 128)&#39;</code>，如果想要加上 alpha 通道，可以使用 RGBA，比如 <code>&#39;rgba(128, 128, 128, 0.5)&#39;</code>，也可以使用十六进制格式，比如 <code>&#39;#ccc&#39;</code>。</p>\n</blockquote>\n",
+                                      "default": "\"#000\""
+                                    },
+                                    "width": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>线宽。</p>\n",
+                                      "default": 0
+                                    },
+                                    "type": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>线的类型。</p>\n<p>可选：</p>\n<ul>\n<li><code>&#39;solid&#39;</code></li>\n<li><code>&#39;dashed&#39;</code></li>\n<li><code>&#39;dotted&#39;</code></li>\n</ul>\n",
+                                      "default": "solid"
+                                    },
+                                    "shadowBlur": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                                    },
+                                    "shadowColor": {
+                                      "type": [
+                                        "Color"
+                                      ],
+                                      "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                                    },
+                                    "shadowOffsetX": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "shadowOffsetY": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                                      "default": 0
+                                    },
+                                    "opacity": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
+                                    },
+                                    "curveness": {
+                                      "type": [
+                                        "number"
+                                      ],
+                                      "descriptionCN": "<p>边的曲度，支持从 0 到 1 的值，值越大曲度越大。</p>\n",
+                                      "default": 0
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "label": {
+                              "type": [
+                                "Object"
+                              ],
+                              "descriptionCN": "<p>该数据项标签的样式，起点和终点项的<code>label</code>会合并到一起。</p>\n",
+                              "properties": {
+                                "normal": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "show": {
+                                      "type": [
+                                        "boolean"
+                                      ],
+                                      "descriptionCN": "<p>是否显示标签。</p>\n",
+                                      "default": true
+                                    },
+                                    "position": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>标签位置，可选：</p>\n<ul>\n<li><code>&#39;start&#39;</code> 线的起始点。</li>\n<li><code>&#39;end&#39;</code>   线的结束点。</li>\n</ul>\n",
+                                      "default": "'end'"
+                                    },
+                                    "formatter": {
+                                      "type": [
+                                        "string",
+                                        "Function"
+                                      ],
+                                      "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>, <code>{d}</code>，分别表示系列名，数据名，数据值，百分比。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {d}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：</p>\n<pre><code class=\"lang-js\"> {\n     // 系列在传入的 option.series 中的 index\n     seriesIndex: number,\n     // 系列名称\n     seriesName: string,\n     // 数据名，类目名\n     name: string,\n     // 数据在传入的 data 数组中的 index\n     dataIndex: number,\n     // 传入的原始数据项\n     data: Object,\n     // 传入的数据值\n     value: number|Array,\n\n }\n</code></pre>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                                    }
+                                  }
+                                },
+                                "emphasis": {
+                                  "type": [
+                                    "Object"
+                                  ],
+                                  "descriptionCN": "",
+                                  "properties": {
+                                    "show": {
+                                      "type": [
+                                        "boolean"
+                                      ],
+                                      "descriptionCN": "<p>是否显示标签。</p>\n",
+                                      "default": true
+                                    },
+                                    "position": {
+                                      "type": [
+                                        "string"
+                                      ],
+                                      "descriptionCN": "<p>标签位置，可选：</p>\n<ul>\n<li><code>&#39;start&#39;</code> 线的起始点。</li>\n<li><code>&#39;end&#39;</code>   线的结束点。</li>\n</ul>\n",
+                                      "default": "'end'"
+                                    },
+                                    "formatter": {
+                                      "type": [
+                                        "string",
+                                        "Function"
+                                      ],
+                                      "descriptionCN": "<p>标签内容格式器，支持字符串模板和回调函数两种形式。</p>\n<ol>\n<li><p>字符串模板。</p>\n<p> 模板变量有 <code>{a}</code>, <code>{b}</code>，<code>{c}</code>, <code>{d}</code>，分别表示系列名，数据名，数据值，百分比。</p>\n<p> <strong>示例：</strong></p>\n<pre><code class=\"lang-js\"> formatter: &#39;{b}: {d}&#39;\n</code></pre>\n</li>\n<li><p>回调函数。</p>\n<p> 回调函数格式：</p>\n<pre><code class=\"lang-js\"> (params: Object|Array) =&gt; string\n</code></pre>\n<p> 参数 <code>params</code> 是 formatter 需要的单个数据集。格式如下：</p>\n<pre><code class=\"lang-js\"> {\n     // 系列在传入的 option.series 中的 index\n     seriesIndex: number,\n     // 系列名称\n     seriesName: string,\n     // 数据名，类目名\n     name: string,\n     // 数据在传入的 data 数组中的 index\n     dataIndex: number,\n     // 传入的原始数据项\n     data: Object,\n     // 传入的数据值\n     value: number|Array,\n\n }\n</code></pre>\n</li>\n</ol>\n<p>formatter 返回的字符串支持用 <code>\\n</code> 换行。</p>\n"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "animation": {
+                      "type": [
+                        "boolean"
+                      ],
+                      "descriptionCN": "<p>是否开启动画，默认开启。</p>\n",
+                      "default": true
+                    },
+                    "animationDuration": {
+                      "type": [
+                        "number"
+                      ],
+                      "descriptionCN": "<p>初始动画的时长。</p>\n",
+                      "default": 1000
+                    },
+                    "animationEasing": {
+                      "type": [
+                        "string"
+                      ],
+                      "descriptionCN": "<p>初始动画的缓动效果。不同的缓动效果可以参考 <a href=\"line-easing\" target=\"_blank\">缓动示例</a>。</p>\n",
+                      "default": "cubicOut"
+                    },
+                    "animationDurationUpdate": {
+                      "type": [
+                        "number"
+                      ],
+                      "descriptionCN": "<p>数据更新动画的时长。</p>\n",
+                      "default": 300
+                    },
+                    "animationEasingUpdate": {
+                      "type": [
+                        "string"
+                      ],
+                      "descriptionCN": "<p>数据更新动画的缓动效果。</p>\n",
+                      "default": "cubicOut"
+                    }
+                  }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>热力图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>热力图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 }
               }
             },
@@ -25703,54 +27470,54 @@
                           "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
                         }
                       }
-                    },
-                    "zlevel": {
-                      "type": [
-                        "number"
-                      ],
-                      "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
-                      "default": 0
-                    },
-                    "z": {
-                      "type": [
-                        "number"
-                      ],
-                      "descriptionCN": "<p>组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
-                      "default": 2
-                    },
-                    "left": {
-                      "type": [
-                        "string",
-                        "number"
-                      ],
-                      "descriptionCN": "<p>组件离容器左侧的距离。</p>\n<p>left 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>。</p>\n<p>如果 left 的值为<code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
-                      "default": "'auto'"
-                    },
-                    "top": {
-                      "type": [
-                        "string",
-                        "number"
-                      ],
-                      "descriptionCN": "<p>组件离容器上侧的距离。</p>\n<p>top 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>。</p>\n<p>如果 top 的值为<code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
-                      "default": "'auto'"
-                    },
-                    "right": {
-                      "type": [
-                        "string",
-                        "number"
-                      ],
-                      "descriptionCN": "<p>组件离容器右侧的距离。</p>\n<p>right 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
-                      "default": "'auto'"
-                    },
-                    "bottom": {
-                      "type": [
-                        "string",
-                        "number"
-                      ],
-                      "descriptionCN": "<p>组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
-                      "default": "'auto'"
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
+                },
+                "left": {
+                  "type": [
+                    "string",
+                    "number"
+                  ],
+                  "descriptionCN": "<p>组件离容器左侧的距离。</p>\n<p>left 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>。</p>\n<p>如果 left 的值为<code>&#39;left&#39;</code>, <code>&#39;center&#39;</code>, <code>&#39;right&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
+                  "default": "'auto'"
+                },
+                "top": {
+                  "type": [
+                    "string",
+                    "number"
+                  ],
+                  "descriptionCN": "<p>组件离容器上侧的距离。</p>\n<p>top 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比，也可以是 <code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>。</p>\n<p>如果 top 的值为<code>&#39;top&#39;</code>, <code>&#39;middle&#39;</code>, <code>&#39;bottom&#39;</code>，组件会根据相应的位置自动对齐。</p>\n",
+                  "default": "'auto'"
+                },
+                "right": {
+                  "type": [
+                    "string",
+                    "number"
+                  ],
+                  "descriptionCN": "<p>组件离容器右侧的距离。</p>\n<p>right 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+                  "default": "'auto'"
+                },
+                "bottom": {
+                  "type": [
+                    "string",
+                    "number"
+                  ],
+                  "descriptionCN": "<p>组件离容器下侧的距离。</p>\n<p>bottom 的值可以是像 <code>20</code> 这样的具体像素值，可以是像 <code>&#39;20%&#39;</code> 这样相对于容器高宽的百分比。</p>\n<p>默认自适应。</p>\n",
+                  "default": "'auto'"
                 },
                 "mapValueCalculation": {
                   "type": [
@@ -26073,6 +27840,20 @@
                       }
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>平行坐标所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>平行坐标组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 },
                 "animation": {
                   "type": [
@@ -26698,7 +28479,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-lines.markPoint.data.x\">x</a>, <a href=\"#series-lines.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-lines.markPoint.data.x\">x</a>, <a href=\"#series-lines.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -27295,7 +29076,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-lines.markLine.data.0.x\">x</a>, <a href=\"#series-lines.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-lines.markLine.data.0.x\">x</a>, <a href=\"#series-lines.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -27859,6 +29640,20 @@
                       "default": "cubicOut"
                     }
                   }
+                },
+                "zlevel": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>线图所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "default": 0
+                },
+                "z": {
+                  "type": [
+                    "number"
+                  ],
+                  "descriptionCN": "<p>线图组件的所有图形的<code>z</code>值。控制图形的前后顺序。<code>z</code>值小的图形会被<code>z</code>值大的图形覆盖。</p>\n<p><code>z</code>相比<code>zlevel</code>优先级更低，而且不会创建新的 Canvas。</p>\n",
+                  "default": 2
                 },
                 "animation": {
                   "type": [
@@ -29925,7 +31720,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-graph.markPoint.data.x\">x</a>, <a href=\"#series-graph.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-graph.markPoint.data.x\">x</a>, <a href=\"#series-graph.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -30522,7 +32317,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-graph.markLine.data.0.x\">x</a>, <a href=\"#series-graph.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-graph.markLine.data.0.x\">x</a>, <a href=\"#series-graph.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -31091,7 +32886,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -31209,7 +33004,7 @@
                   "type": [
                     "number"
                   ],
-                  "descriptionCN": "<p>组件的所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
+                  "descriptionCN": "<p>所有图形的 zlevel 值。</p>\n<p><code>zlevel</code>用于 Canvas 分层，不同<code>zlevel</code>值的图形会放置在不同的 Canvas 中，Canvas 分层是一种常见的优化手段。我们可以把一些图形变化频繁（例如有动画）的组件设置成一个单独的<code>zlevel</code>。需要注意的是过多的 Canvas 会引起内存开销的增大，在手机端上需要谨慎使用以防崩溃。</p>\n<p>zlevel 大的 Canvas 会放在 zlevel 小的 Canvas 的上面。</p>\n",
                   "default": 0
                 },
                 "z": {
@@ -33455,7 +35250,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-funnel.markPoint.data.x\">x</a>, <a href=\"#series-funnel.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-funnel.markPoint.data.x\">x</a>, <a href=\"#series-funnel.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -34052,7 +35847,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-funnel.markLine.data.0.x\">x</a>, <a href=\"#series-funnel.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-funnel.markLine.data.0.x\">x</a>, <a href=\"#series-funnel.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
@@ -34753,41 +36548,39 @@
                             "number"
                           ],
                           "descriptionCN": "<p>轴线宽度。</p>\n",
-                          "default": 30,
-                          "properties": {
-                            "shadowBlur": {
-                              "type": [
-                                "number"
-                              ],
-                              "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
-                            },
-                            "shadowColor": {
-                              "type": [
-                                "Color"
-                              ],
-                              "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
-                            },
-                            "shadowOffsetX": {
-                              "type": [
-                                "number"
-                              ],
-                              "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
-                              "default": 0
-                            },
-                            "shadowOffsetY": {
-                              "type": [
-                                "number"
-                              ],
-                              "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
-                              "default": 0
-                            },
-                            "opacity": {
-                              "type": [
-                                "number"
-                              ],
-                              "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
-                            }
-                          }
+                          "default": 30
+                        },
+                        "shadowBlur": {
+                          "type": [
+                            "number"
+                          ],
+                          "descriptionCN": "<p>图形阴影的模糊大小。该属性配合 <code>shadowColor</code>,<code>shadowOffsetX</code>, <code>shadowOffsetY</code> 一起设置图形的阴影效果。</p>\n<p>示例：</p>\n<pre><code class=\"lang-js\">itemStyle: {\n    normal: {\n        shadowColor: &#39;rgba(0, 0, 0, 0.5)&#39;,\n        shadowBlur: 10\n    }\n}\n</code></pre>\n"
+                        },
+                        "shadowColor": {
+                          "type": [
+                            "Color"
+                          ],
+                          "descriptionCN": "<p>阴影颜色。支持的格式同<code>color</code>。</p>\n"
+                        },
+                        "shadowOffsetX": {
+                          "type": [
+                            "number"
+                          ],
+                          "descriptionCN": "<p>阴影水平方向上的偏移距离。</p>\n",
+                          "default": 0
+                        },
+                        "shadowOffsetY": {
+                          "type": [
+                            "number"
+                          ],
+                          "descriptionCN": "<p>阴影垂直方向上的偏移距离。</p>\n",
+                          "default": 0
+                        },
+                        "opacity": {
+                          "type": [
+                            "number"
+                          ],
+                          "descriptionCN": "<p>图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。</p>\n"
                         }
                       }
                     }
@@ -35685,7 +37478,7 @@
                       "type": [
                         "Array"
                       ],
-                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-gauge.markPoint.data.x\">x</a>, <a href=\"#series-gauge.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [{\n    name: &#39;某个屏幕坐标&#39;,\n    x: 100,\n    y: 100\n}]\n</code></pre>\n",
+                      "descriptionCN": "<p>标注的数据数组。每个数组项是一个对象，有下面几种方式指定标注的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-gauge.markPoint.data.x\">x</a>, <a href=\"#series-gauge.markPoint.data.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<p><strong>示例：</strong></p>\n<pre><code class=\"lang-js\">data: [\n    {\n        name: &#39;某个屏幕坐标&#39;,\n        x: 100,\n        y: 100\n    }\n]\n</code></pre>\n",
                       "items": {
                         "type": "Object",
                         "properties": {
@@ -36282,7 +38075,7 @@
                       "type": [
                         "*"
                       ],
-                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-gauge.markLine.data.0.x\">x</a>, <a href=\"#series-gauge.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [{\n        name: &#39;两个屏幕坐标之间的标线&#39;,\n        x: 100,\n        y: 100\n    }, {\n        x: 500,\n        y: 200\n    }]\n]\n</code></pre>",
+                      "descriptionCN": "<p>标线的数据数组。每个数组项可以是一个两个值的数组，分别表示线的起点和终点，每一项是一个对象，有下面几种方式指定起点或终点的位置。</p>\n<ol>\n<li>通过 <a href=\"#series-gauge.markLine.data.0.x\">x</a>, <a href=\"#series-gauge.markLine.data.0.y\">y</a> 属性指定相对容器的屏幕坐标，单位像素。</li>\n</ol>\n<p>当多个属性同时存在时，优先级按上述的顺序。</p>\n<pre><code>data: [\n    [\n        {\n            name: &#39;两个屏幕坐标之间的标线&#39;,\n            x: 100,\n            y: 100\n        },\n        {\n            x: 500,\n            y: 200\n        }\n    ]\n]\n</code></pre>",
                       "properties": {
                         "0": {
                           "type": [
