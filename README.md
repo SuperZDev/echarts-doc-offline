@@ -8,6 +8,7 @@ ECharts3官方文档离线版by SuperZDev
 ## 本离线文档可在线访问
 - 配置项为：[http://superzdev.com/echarts-doc-offline/option.html](http://superzdev.com/echarts-doc-offline/option.html)
 - API地址为：[http://superzdev.com/echarts-doc-offline/api.html](http://superzdev.com/echarts-doc-offline/api.html)
+
 ## 使用前介绍 ##
 
 ECharts3.x线上文档JSON结构：
