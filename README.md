@@ -17,6 +17,7 @@ ECharts3.x线上文档JSON结构：
 
 闲了大家可以写个简易小程序，用来浏览，我是直接大致看了一下官网，down了一下资源，改了下。
 
+
 ## 使用方法 ##
 
 1. 首先，把[离线文档](https://github.com/SuperZDev/echarts-doc-offline)下载（Download ZIP）
