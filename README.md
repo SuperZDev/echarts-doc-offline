@@ -5,7 +5,7 @@ ECharts3官方文档离线版by SuperZDev
 	试用版本：ECharts3.1.1线上文档
 	文档更新时间：2016年2月22日22:46:55
 
-## 本离线文档可在线访问
+## 本离线文档可在线访问(仅供参考)
 - 配置项为：[http://superzdev.com/echarts-doc-offline/option.html](http://superzdev.com/echarts-doc-offline/option.html)
 - API地址为：[http://superzdev.com/echarts-doc-offline/api.html](http://superzdev.com/echarts-doc-offline/api.html)
 
