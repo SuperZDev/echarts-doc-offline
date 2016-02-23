@@ -4,6 +4,11 @@ ECharts3官方文档离线版by SuperZDev
 	试用人群：军工，政府，限制上网的机构和组织（在这种地方上过班，看个文档两个字“痛苦”）。
 	试用版本：ECharts3.1.1线上文档
 	文档更新时间：2016年2月22日22:46:55
+
+## 本离线文档可在线访问
+- 配置项为：[http://superzdev.com/echarts-doc-offline/option.html](http://superzdev.com/echarts-doc-offline/option.html)
+- API地址为：[http://superzdev.com/echarts-doc-offline/api.html](http://superzdev.com/echarts-doc-offline/api.html)
+
 ## 使用前介绍 ##
 
 ECharts3.x线上文档JSON结构：
@@ -12,6 +17,7 @@ ECharts3.x线上文档JSON结构：
 - API地址：[http://echarts.baidu.com/documents/cn/api.json](http://echarts.baidu.com/documents/cn/api.json)
 
 闲了大家可以写个简易小程序，用来浏览，我是直接大致看了一下官网，down了一下资源，改了下。
+
 
 ## 使用方法 ##
 
