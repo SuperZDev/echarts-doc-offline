@@ -13,7 +13,7 @@
             "type": [
               "Function"
             ],
-            "descriptionCN": "<pre><code class=\"lang-js\">(dom: HTMLDivElement|HTMLCanvasElement, theme?: Object|string, opts?: {\n    devicePixelRatio?: number\n    renderer?: string\n}) =&gt; ECharts\n</code></pre>\n<p>创建一个 ECharts 示例，返回 <a href=\"#echartsInstance\">echartsInstance</a>，不能再单个容器上初始化多个 ECharts 实例。</p>\n<p><strong>参数</strong></p>\n<ul>\n<li><p><code>dom</code></p>\n<p>  实例容器，一般是一个具有高宽的<code>div</code>元素。</p>\n<p>  <strong>注：</strong>如果<code>div</code>是隐藏的，ECharts 可能会获取不到<code>div</code>的高宽导致初始化失败，这时候可以明确指定<code>div</code>的<code>style.width</code>和<code>style.height</code>，或者在<code>div</code>显示后手动调用 <a href=\"echartsInstance.resize\" target=\"_blank\">echartsInstance.resize</a> 调整尺寸。</p>\n<p>  ECharts 3 中支持直接使用<code>canvas</code>元素作为容器，这样绘制完图表可以直接将 canvas 作为图片应用到其它地方，例如在 WebGL 中作为贴图，这跟使用 <a href=\"#echartsInstance.getDataURL\">echartsInstance.getDataURL</a> 生成图片链接相比可以支持图表的实时刷新。</p>\n</li>\n<li><p><code>theme</code></p>\n<p>  应用的主题。可以是一个主题的配置对象，也可以是使用已经通过 <a href=\"#echarts.registerTheme\">echarts.registerTheme</a> 注册的主题名称。</p>\n</li>\n<li><p><code>opts</code></p>\n<p>  附加参数。有下面几个可选项：</p>\n<ul>\n<li><p><code>devicePixelRatio</code></p>\n<p>  设备像素比，默认取浏览器的值<code>window.devicePixelRatio</code>。</p>\n</li>\n<li><p><code>renderer</code></p>\n<p>  渲染器，目前仅支持<code>&#39;canvas&#39;</code>。</p>\n</li>\n</ul>\n</li>\n</ul>\n"
+            "descriptionCN": "<pre><code class=\"lang-js\">(dom: HTMLDivElement|HTMLCanvasElement, theme?: Object|string, opts?: {\n    devicePixelRatio?: number\n    renderer?: string\n}) =&gt; ECharts\n</code></pre>\n<p>创建一个 ECharts 实例，返回 <a href=\"#echartsInstance\">echartsInstance</a>，不能再单个容器上初始化多个 ECharts 实例。</p>\n<p><strong>参数</strong></p>\n<ul>\n<li><p><code>dom</code></p>\n<p>  实例容器，一般是一个具有高宽的<code>div</code>元素。</p>\n<p>  <strong>注：</strong>如果<code>div</code>是隐藏的，ECharts 可能会获取不到<code>div</code>的高宽导致初始化失败，这时候可以明确指定<code>div</code>的<code>style.width</code>和<code>style.height</code>，或者在<code>div</code>显示后手动调用 <a href=\"echartsInstance.resize\" target=\"_blank\">echartsInstance.resize</a> 调整尺寸。</p>\n<p>  ECharts 3 中支持直接使用<code>canvas</code>元素作为容器，这样绘制完图表可以直接将 canvas 作为图片应用到其它地方，例如在 WebGL 中作为贴图，这跟使用 <a href=\"#echartsInstance.getDataURL\">echartsInstance.getDataURL</a> 生成图片链接相比可以支持图表的实时刷新。</p>\n</li>\n<li><p><code>theme</code></p>\n<p>  应用的主题。可以是一个主题的配置对象，也可以是使用已经通过 <a href=\"#echarts.registerTheme\">echarts.registerTheme</a> 注册的主题名称。</p>\n</li>\n<li><p><code>opts</code></p>\n<p>  附加参数。有下面几个可选项：</p>\n<ul>\n<li><p><code>devicePixelRatio</code></p>\n<p>  设备像素比，默认取浏览器的值<code>window.devicePixelRatio</code>。</p>\n</li>\n<li><p><code>renderer</code></p>\n<p>  渲染器，目前仅支持<code>&#39;canvas&#39;</code>。</p>\n</li>\n</ul>\n</li>\n</ul>\n"
           },
           "connect": {
             "type": [
@@ -37,7 +37,7 @@
             "type": [
               "Function"
             ],
-            "descriptionCN": "<pre><code class=\"lang-js\">(target: HTMLDivElement|HTMLCanvasElement) =&gt; ECharts\n</code></pre>\n<p>获取 dom 容器上的示例。</p>\n"
+            "descriptionCN": "<pre><code class=\"lang-js\">(target: HTMLDivElement|HTMLCanvasElement) =&gt; ECharts\n</code></pre>\n<p>获取 dom 容器上的实例。</p>\n"
           },
           "registerMap": {
             "type": [
@@ -49,7 +49,7 @@
             "type": [
               "Function"
             ],
-            "descriptionCN": "<pre><code class=\"lang-js\">(themeName: string, theme: Object)\n</code></pre>\n<p>注册主题，用于<a href=\"#echarts.init\">初始化示例</a>的时候指定。</p>\n"
+            "descriptionCN": "<pre><code class=\"lang-js\">(themeName: string, theme: Object)\n</code></pre>\n<p>注册主题，用于<a href=\"#echarts.init\">初始化实例</a>的时候指定。</p>\n"
           }
         }
       },
@@ -106,7 +106,7 @@
             "type": [
               "Function"
             ],
-            "descriptionCN": "<pre><code class=\"lang-js\">(payload: Object)\n</code></pre>\n<p>触发图表行为，例如图例开关<code>legendToggleSelect</code>, 数据区域缩放<code>dataZoom</code>，显示提示框<code>showTip</code>等等，更多见 <a href=\"#action\">action</a> 和 <a href=\"#events\">events</a> 的文档。</p>\n<p><code>payload</code> 参数可以通过<code>batch</code>属性同时触发多个行为。</p>\n<p><strong>注：</strong>在 ECharts 2.x 是通过 <code>myChart.component.tooltip.showTip</code> 这种形式调用相应的接口触发图表行为，入口很深，而且涉及到内部组件的组织。因此在 ECharts 里统一改为 <code>dispatchAction</code> 的形式。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"lang-js\">myChart.dispatchAction({\n    type: &#39;dataZoom&#39;,\n    start: 20,\n    end: 30\n});\n// 可以通过 batch 参数批量分发多个 action\nmyChart.dispatchAction({\n    type: &#39;dataZoom&#39;,\n    batch: [{\n        // 第一个 dataZoom 组件\n        start: 20,\n        end: 30\n    }, {\n        // 第二个 dataZoom 组件\n        dataZoomIndex: 1,\n        start: 10,\n        end: 20\n    }]\n})\n</code></pre>\n"
+            "descriptionCN": "<pre><code class=\"lang-js\">(payload: Object)\n</code></pre>\n<p>触发图表行为，例如图例开关<code>legendToggleSelect</code>, 数据区域缩放<code>dataZoom</code>，显示提示框<code>showTip</code>等等，更多见 <a href=\"#action\">action</a> 和 <a href=\"#events\">events</a> 的文档。</p>\n<p><code>payload</code> 参数可以通过<code>batch</code>属性同时触发多个行为。</p>\n<p><strong>注：</strong>在 ECharts 2.x 是通过 <code>myChart.component.tooltip.showTip</code> 这种形式调用相应的接口触发图表行为，入口很深，而且涉及到内部组件的组织。因此在 ECharts 3 里统一改为 <code>dispatchAction</code> 的形式。</p>\n<p><strong>示例</strong></p>\n<pre><code class=\"lang-js\">myChart.dispatchAction({\n    type: &#39;dataZoom&#39;,\n    start: 20,\n    end: 30\n});\n// 可以通过 batch 参数批量分发多个 action\nmyChart.dispatchAction({\n    type: &#39;dataZoom&#39;,\n    batch: [{\n        // 第一个 dataZoom 组件\n        start: 20,\n        end: 30\n    }, {\n        // 第二个 dataZoom 组件\n        dataZoomIndex: 1,\n        start: 10,\n        end: 20\n    }]\n})\n</code></pre>\n"
           },
           "on": {
             "type": [
@@ -400,6 +400,12 @@
               }
             }
           },
+          "legendselectchanged": {
+            "type": [
+              "Event"
+            ],
+            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.legend.legendToggleSelect\">legendToggleSelect</a>\n切换图例选中状态后的事件。</p>\n<p><strong>注：</strong>图例组件用户切换图例开关会触发该事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;legendselectchanged&#39;,\n    // 切换的图例名称\n    name: string\n    // 所有图例的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
+          },
           "legendselected": {
             "type": [
               "Event"
@@ -411,12 +417,6 @@
               "Event"
             ],
             "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.legend.legendUnSelect\">legendUnSelect</a>\n图例取消选中后的事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;legendunselected&#39;,\n    // 取消选中的图例名称\n    name: string\n    // 所有图例的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
-          },
-          "legendselectchanged": {
-            "type": [
-              "Event"
-            ],
-            "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.legend.legendToggleSelect\">legendToggleSelect</a>\n切换图例选中状态后的事件。</p>\n<p>图例组件用户切换图例开关会触发该事件。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;legendselectchanged&#39;,\n    // 切换的图例名称\n    name: string\n    // 所有图例的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
           },
           "datazoom": {
             "type": [
