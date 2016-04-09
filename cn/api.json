@@ -94,7 +94,7 @@
             "type": [
               "Function"
             ],
-            "descriptionCN": "<pre><code class=\"lang-js\">() =&gt; Object\n</code></pre>\n<p>获取当前实例中维护的<code>option</code>对象，返回的<code>option</code>对象中包含了用户多次<code>setOption</code>合并得到的配置项和数据，也记录了用户交互的状态，例如图例的开关，数据区域缩放选择的范围等等。所以从这份 option 可以恢复或者得到一个新的一模一样的实例。</p>\n<p><strong>注意：</strong>返回的 option 每个组件的属性值都统一是一个数组，不管<code>setOption</code>传进来的时候是单个组件的对象还是多个组件的数组。如下形式：</p>\n<pre><code class=\"lang-js\">{\n    title: [{...}],\n    legend: [{...}],\n    grid: [{...}]\n}\n</code></pre>\n"
+            "descriptionCN": "<pre><code class=\"lang-js\">() =&gt; Object\n</code></pre>\n<p>获取当前实例中维护的<code>option</code>对象，返回的<code>option</code>对象中包含了用户多次<code>setOption</code>合并得到的配置项和数据，也记录了用户交互的状态，例如图例的开关，数据区域缩放选择的范围等等。所以从这份 option 可以恢复或者得到一个新的一模一样的实例。</p>\n<p><strong>注意：</strong>返回的 option 每个组件的属性值都统一是一个数组，不管<code>setOption</code>传进来的时候是单个组件的对象还是多个组件的数组。如下形式：</p>\n<pre><code class=\"lang-js\">{\n    title: [{...}],\n    legend: [{...}],\n    grid: [{...}]\n}\n</code></pre>\n<p>另外<strong>不推荐</strong>下面这种写法：</p>\n<pre><code class=\"lang-js\">var option = myChart.getOption();\noption.visualMap[0].inRange.color = ...;\nmyChart.setOption(option);\n</code></pre>\n<p>因为 <code>getOption</code>获取的是已经合并过默认值了的，所以在修改了某些配置项后会导致原本是根据这些配置项值去设置的默认值失效。</p>\n<p>因此我们更<strong>推荐</strong>通过<code>setOption</code>去修改部分配置。</p>\n<pre><code class=\"lang-js\">myChart.setOption({\n    visualMap: {\n        inRange: {\n            color: ...\n        }\n    }\n})\n</code></pre>\n"
           },
           "resize": {
             "type": [
@@ -374,12 +374,6 @@
                 ],
                 "descriptionCN": ""
               },
-              "mousemove": {
-                "type": [
-                  "Event"
-                ],
-                "descriptionCN": ""
-              },
               "mouseup": {
                 "type": [
                   "Event"
@@ -393,6 +387,12 @@
                 "descriptionCN": ""
               },
               "mouseout": {
+                "type": [
+                  "Event"
+                ],
+                "descriptionCN": ""
+              },
+              "globalout": {
                 "type": [
                   "Event"
                 ],
