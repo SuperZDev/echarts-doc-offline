@@ -354,7 +354,7 @@
             "type": [
               "*"
             ],
-            "descriptionCN": "<p>事件参数是事件对象的数据的各个属性，具体见各个图表类型的 label formatter 回调函数的 params 参数。</p>\n",
+            "descriptionCN": "<p>鼠标事件的事件参数是事件对象的数据的各个属性，对于图表的点击事件，基本参数如下，其它图表诸如饼图可能会有部分附加参数。例如饼图会有<code>percent</code>属性表示百分比，具体见各个图表类型的 label formatter 回调函数的 params。</p>\n<pre><code class=\"lang-js\">{\n    componentType: &#39;series&#39;,\n    // 系列类型\n    seriesType: string,\n    // 系列在传入的 option.series 中的 index\n    seriesIndex: number,\n    // 系列名称\n    seriesName: string,\n    // 数据名，类目名\n    name: string,\n    // 数据在传入的 data 数组中的 index\n    dataIndex: number,\n    // 传入的原始数据项\n    data: Object,\n    // 传入的数据值\n    value: number|Array,\n    // 数据图形的颜色\n    color: string\n}\n</code></pre>\n<p>鼠标事件包括<code>&#39;click&#39;</code>，<code>&#39;dblclick&#39;</code>，<code>&#39;mousedown&#39;</code>，<code>&#39;mouseup&#39;</code>，<code>&#39;mouseover&#39;</code>，<code>&#39;mouseout&#39;</code>，<code>&#39;globalout&#39;</code></p>\n",
             "properties": {
               "click": {
                 "type": [
@@ -495,6 +495,12 @@
               "Event"
             ],
             "descriptionCN": "<p><strong>ACTION:</strong> <a href=\"#action.map.mapUnSelect\">mapUnSelect</a></p>\n<p>地图区域取消选中后的事件。</p>\n<p>使用<code>dispatchAction</code>可触发此事件，用户点击不会触发此事件（用户点击事件请使用 <a href=\"#events.mapselectchanged\">mapselectchanged</a>）。</p>\n<pre><code class=\"lang-js\">{\n    type: &#39;mapunselected&#39;,\n    // 系列 ID，可以在 option 中传入\n    seriesId: string\n    // 数据名称\n    name: name,\n    // 所有数据的选中状态表。\n    selected: Object\n}\n</code></pre>\n"
+          },
+          "axisareaselected": {
+            "type": [
+              "Event"
+            ],
+            "descriptionCN": "<p><a href=\"option.html#parallelAxis\" target=\"_blank\">平行坐标轴 (Parallel)</a> 范围选取事件。</p>\n<p>当进行坐标轴范围选区时，可以用如下方式获取当前高亮的线所对应的 data indices\n（即 <code>series</code> 的 <code>data</code> 中的序号列表）。</p>\n<pre><code class=\"lang-javascript\">chart.on(&#39;axisareaselected&#39;, function () {\n    var series1 = chart.getModel().getSeries()[0];\n    var series2 = chart.getModel().getSeries()[0];\n    var indices1 = series1.getRawIndicesByActiveState(&#39;active&#39;);\n    var indices2 = series2.getRawIndicesByActiveState(&#39;active&#39;);\n    console.log(indices1);\n    console.log(indices2);\n});\n</code></pre>\n"
           }
         }
       }
