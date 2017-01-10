@@ -2,8 +2,8 @@
 ECharts3官方文档离线版by SuperZDev
 
 	试用人群：军工，政府，限制上网的机构和组织（在这种地方上过班，看个文档两个字“痛苦”）。
-	试用版本：ECharts3.1.7线上文档
-	文档更新时间：2016年5月2日12:21:02
+	试用版本：ECharts3.3.2线上文档
+	文档更新时间：2017年1月10日16:04:05
 
 ## 本离线文档可在线访问(仅供参考)
 - 配置项为：[http://superzdev.com/echarts-doc-offline/option.html](http://superzdev.com/echarts-doc-offline/option.html)
