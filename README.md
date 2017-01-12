@@ -1,3 +1,14 @@
+# 说明
+
+本文档非官方提供，下面有官方地址。
+
+# 官方地址
+
+ECharts官方提供了一个离线版文档以及示例，大家可以去下面两个官方地址查看。
+
+- [Examples of ECharts](https://github.com/ecomfe/echarts-examples "Examples of ECharts")
+- [Official repository of ECharts](https://github.com/ecomfe/echarts-doc "Official repository of ECharts documentation")
+ 
 # echarts-doc-offline
 ECharts3官方文档离线版by SuperZDev
 
